@@ -15,27 +15,27 @@ const routes = [
   {
     path: "/survivors",
     name: "Survivors",
-    component: Survivors
+    component: Survivors,
   },
   {
     path: "/killers",
     name: "Killers",
-    component: Killers
+    component: Killers,
   },
   {
     path: "/perks",
     name: "Perks",
-    component: Perks
+    component: Perks,
   },
   {
     path: "/perks/survivor-perks",
     name: "SurvivorPerks",
-    component: SurvivorPerks
+    component: SurvivorPerks,
   },
   {
     path: "/perks/killer-perks",
     name: "KillerPerks",
-    component: KillerPerks
+    component: KillerPerks,
   },
 ];
 

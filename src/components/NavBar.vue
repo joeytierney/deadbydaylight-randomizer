@@ -1,20 +1,24 @@
 <template>
-    <nav id="vue">
-        <div class="menu-item"><router-link to="/">Home</router-link></div>
-        <div class="menu-item"><router-link to="/survivors">Survivors</router-link></div>
-        <div class="menu-item"><router-link to="/killers">Killers</router-link></div>
-        <Perks title="Perks" />
-    </nav>
+  <nav id="vue">
+    <div class="menu-item"><router-link to="/">Home</router-link></div>
+    <div class="menu-item">
+      <router-link to="/survivors">Survivors</router-link>
+    </div>
+    <div class="menu-item">
+      <router-link to="/killers">Killers</router-link>
+    </div>
+    <Perks title="Perks" />
+  </nav>
 </template>
 
 <script>
-import Perks from '../views/Perks.vue'
+import Perks from "../views/Perks.vue";
 export default {
-    name: 'navbar',
-    components: {
-        Perks
-    }
-}
+  name: "navbar",
+  components: {
+    Perks,
+  },
+};
 </script>
 
 <style>
@@ -26,7 +30,7 @@ nav {
   justify-content: center;
 }
 nav .menu-item {
-  color: #FFF;
+  color: #fff;
   padding: 25px 40px;
   position: relative;
   text-align: center;

@@ -3,21 +3,30 @@
     <NavBar />
   </div>
   <router-view />
-  <iframe width="1" height="1" src="https://www.youtube.com/embed/nc2yOLMCOhs?autoplay=1&loop=1&rel=0&showinfo=0&color=white&iv_load_policy=3&playlist=nc2yOLMCOhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen wmode="transparent"></iframe>
+  <iframe
+    width="1"
+    height="1"
+    src="https://www.youtube.com/embed/nc2yOLMCOhs?autoplay=1&loop=1&rel=0&showinfo=0&color=white&iv_load_policy=3&playlist=nc2yOLMCOhs"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    wmode="transparent"
+  ></iframe>
 </template>
 
 <script>
-import NavBar from './components/NavBar.vue';
+import NavBar from "./components/NavBar.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    NavBar
-  }
-}
+    NavBar,
+  },
+};
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -27,7 +36,7 @@ body {
   margin: 0;
   padding: 0;
   background: #1b1b1b;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #fff;
   background-image: url(/assets/background/dbd-fog-background.jpg);
   background-size: fill;
