@@ -2,7 +2,16 @@
   <div class="killers">
     <h1>Choose Your Killer</h1>
     <br />
-    <img :src="selectedKiller.image" alt="Click the killer icon below!" />
+    <div class="killerImage" v-if="visible">
+      <img :src="selectedKiller.image" alt="Click the killer icon below!" />
+    </div>
+    <img
+      src="../assets/icons/Unknown_QuestionMark.png"
+      alt="Random Killer Placeholder"
+      class="questionMark"
+      id="questionPlaceholder"
+    />
+    <p id="helperText">Click the Killer icon below!</p>
     <h1>{{ selectedKiller.name }}</h1>
     <h2>{{ selectedKiller.realName }}</h2>
     <h3>{{ selectedKiller.dlc }}</h3>
@@ -232,13 +241,16 @@ export default {
         },
       ],
       selectedKiller: "",
+      visible: false,
     };
   },
   methods: {
     rndKiller() {
       const idx = Math.floor(Math.random() * this.killersArray.length);
       this.selectedKiller = this.killersArray[idx];
-      document.getElementById("killerButton").focus();
+      document.getElementById("questionPlaceholder").remove();
+      document.getElementById("helperText").remove();
+      this.visible = true;
     },
   },
 };
@@ -279,6 +291,11 @@ h3 {
 
 img {
   color: white;
+}
+
+.questionMark {
+  height: 90px;
+  width: 90px;
 }
 
 .killers {

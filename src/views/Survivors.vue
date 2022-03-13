@@ -2,7 +2,16 @@
   <div class="survivors">
     <h1>Choose Your Survivor</h1>
     <br />
-    <img :src="selectedSurvivor.image" alt="Click the survivor icon below!" />
+    <div class="survImage" v-if="visible">
+      <img :src="selectedSurvivor.image" alt="Click the survivor icon below!" />
+    </div>
+    <img
+      src="../assets/icons/Unknown_QuestionMark.png"
+      alt="Random Survivor Placeholder"
+      class="questionMark"
+      id="questionPlaceholder"
+    />
+    <p id="helperText">Click the Survivor icon below!</p>
     <h1 class="survName">{{ selectedSurvivor.name }}</h1>
     <h3 class="survDLC">{{ selectedSurvivor.dlc }}</h3>
     <br />
@@ -218,12 +227,16 @@ export default {
         },
       ],
       selectedSurvivor: "",
+      visible: false,
     };
   },
   methods: {
     rndSurv() {
       const idx = Math.floor(Math.random() * this.survivorsArray.length);
       this.selectedSurvivor = this.survivorsArray[idx];
+      document.getElementById("questionPlaceholder").remove();
+      document.getElementById("helperText").remove();
+      this.visible = true;
     },
   },
 };
@@ -247,6 +260,11 @@ h3 {
 
 img {
   color: white;
+}
+
+.questionMark {
+  height: 90px;
+  width: 90px;
 }
 
 .survivors {
