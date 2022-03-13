@@ -1,36 +1,59 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/survivors">Survivors</router-link>
+  <div id="app">
+    <NavBar />
   </div>
   <router-view />
+  <iframe width="1" height="1" src="https://www.youtube.com/embed/nc2yOLMCOhs?autoplay=1&loop=1&rel=0&showinfo=0&color=white&iv_load_policy=3&playlist=nc2yOLMCOhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen wmode="transparent"></iframe>
 </template>
 
+<script>
+import NavBar from './components/NavBar.vue';
+export default {
+  name: 'App',
+  components: {
+    NavBar
+  }
+}
+</script>
+
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #1b1b1b;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  background-image: url(/assets/background/dbd-fog-background.jpg);
+  background-size: fill;
+  background-repeat: no-repeat;
+}
+header {
+  width: 100vw;
+  background-color: rgb(88, 82, 82);
+  padding: 25px;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #202427;
 }
-
 #nav {
   padding: 30px;
 }
-
 #nav a {
   font-weight: bold;
-  color: white;
+  color: #2c3e50;
 }
-
 #nav a.router-link-exact-active {
-  color: #e09c1c;
-}
-
-body {
-  background-image: url(/assets/background/dbd-fog-background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #0d0d0e;
+  border-bottom-color: #bb3030;
 }
 </style>
