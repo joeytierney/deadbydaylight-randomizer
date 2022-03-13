@@ -64,7 +64,7 @@ export default {
         {
           name: "Laurie Strode",
           image: "../assets/character-portraits/survivors/08-laurie-strode.png",
-          dlc: "CHAPTER II: HALLOWEEN",
+          dlc: "CHAPTER II: HALLOWEEN®",
         },
         {
           name: "Ace Visconti",
@@ -79,13 +79,13 @@ export default {
         {
           name: "Quentin Smith",
           image: "../assets/character-portraits/survivors/11-quentin-smith.png",
-          dlc: "CHAPTER VI: A Nightmare on Elm Street",
+          dlc: "CHAPTER VI: A Nightmare on Elm Street™",
         },
         {
           name: "Detective David Tapp",
           image:
             "../assets/character-portraits/survivors/12-detective-david-tapp.png",
-          dlc: "CHAPTER VII: SAW",
+          dlc: "CHAPTER VII: SAW™",
         },
         {
           name: "Kate Denson",
