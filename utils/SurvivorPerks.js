@@ -347,4 +347,46 @@ export const survivorPerks = [
         "../../assets/perks/survivor-perks/lucky-break.png",
       teachable: "Yui Kimura Teachable Perk",
     },
+    {
+      name: "Mettle of Man",
+      image:
+        "../../assets/perks/survivor-perks/mettle-of-man.png",
+      teachable: "Ashley J. Williams Teachable Perk",
+    },
+    {
+      name: "No Mither",
+      image:
+        "../../assets/perks/survivor-perks/no-mither.png",
+      teachable: "David King Teachable Perk",
+    },
+    {
+      name: "No One Left Behind",
+      image:
+        "../../assets/perks/survivor-perks/no-one-left-behind.png",
+      teachable: "All Characters",
+    },
+    {
+      name: "Object of Obsession",
+      image:
+        "../../assets/perks/survivor-perks/object-of-obsession.png",
+      teachable: "Laurie Strode Teachable Perk",
+    },
+    {
+      name: "Off the Record",
+      image:
+        "../../assets/perks/survivor-perks/off-the-record.png",
+      teachable: "Zarina Kassir Teachable Perk",
+    },
+    {
+      name: "Open Handed",
+      image:
+        "../../assets/perks/survivor-perks/open-handed.png",
+      teachable: "Ace Visconti Teachable Perk",
+    },
+    {
+      name: "Overcome",
+      image:
+        "../../assets/perks/survivor-perks/overcome.png",
+      teachable: "Jonah Vasquez Teachable Perk",
+    },
 ]
