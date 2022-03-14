@@ -389,4 +389,52 @@ export const survivorPerks = [
         "../../assets/perks/survivor-perks/overcome.png",
       teachable: "Jonah Vasquez Teachable Perk",
     },
+    {
+      name: "Parental Guidance",
+      image:
+        "../../assets/perks/survivor-perks/parental-guidance.png",
+      teachable: "Yoichi Asakawa Teachable Perk",
+    },
+    {
+      name: "Pharmacy",
+      image:
+        "../../assets/perks/survivor-perks/pharmacy.png",
+      teachable: "Quentin Smith Teachable Perk",
+    },
+    {
+      name: "Plunderers Instinct",
+      image:
+        "../../assets/perks/survivor-perks/plunderers-instinct.png",
+      teachable: "All Characters",
+    },
+    {
+      name: "Poised",
+      image:
+        "../../assets/perks/survivor-perks/poised.png",
+      teachable: "Jane Romero Teachable Perk",
+    },
+    {
+      name: "Power Struggle",
+      image:
+        "../../assets/perks/survivor-perks/power-struggle.png",
+      teachable: "Élodie Rakoto Teachable Perk",
+    },
+    {
+      name: "Premonition",
+      image:
+        "../../assets/perks/survivor-perks/premonition.png",
+      teachable: "All Characters",
+    },
+    {
+      name: "Prove Thyself",
+      image:
+        "../../assets/perks/survivor-perks/prove-thyself.png",
+      teachable: "Dwight Fairfield Teachable Perk",
+    },
+    {
+      name: "Quick and Quiet",
+      image:
+        "../../assets/perks/survivor-perks/quick-and-Quiet.png",
+      teachable: "Meg Thomas Teachable Perk",
+    },
 ]
