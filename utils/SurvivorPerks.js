@@ -245,4 +245,106 @@ export const survivorPerks = [
         "../../assets/perks/survivor-perks/diversion.png",
       teachable: "Adam Francis Teachable Perk",
     },
+    {
+      name: "Empathic Connection",
+      image:
+        "../../assets/perks/survivor-perks/empathic-connection.png",
+      teachable: "Yoichi Asakawa Teachable Perk",
+    },
+    {
+      name: "Empathy",
+      image:
+        "../../assets/perks/survivor-perks/empathy.png",
+      teachable: "Claudette Morel Teachable Perk",
+    },
+    {
+      name: "Fast Track",
+      image:
+        "../../assets/perks/survivor-perks/fast-track.png",
+      teachable: "Yun-Jin Lee Teachable Perk",
+    },
+    {
+      name: "Fixated",
+      image:
+        "../../assets/perks/survivor-perks/fixated.png",
+      teachable: "Nancy Wheeler Teachable Perk",
+    },
+    {
+      name: "Flashbang",
+      image:
+        "../../assets/perks/survivor-perks/flashbang.png",
+      teachable: "Leon S. Kennedy Teachable Perk",
+    },
+    {
+      name: "Flip-Flop",
+      image:
+        "../../assets/perks/survivor-perks/flip-flop.png",
+      teachable: "Ashley J. Williams Teachable Perk",
+    },
+    {
+      name: "For the People",
+      image:
+        "../../assets/perks/survivor-perks/for-the-people.png",
+      teachable: "Zarina Kassir Teachable Perk",
+    },
+    {
+      name: "Head On",
+      image:
+        "../../assets/perks/survivor-perks/head-on.png",
+      teachable: "Jane Romero Teachable Perk",
+    },
+    {
+      name: "Hope",
+      image:
+        "../../assets/perks/survivor-perks/hope.png",
+      teachable: "All Characters",
+    },
+    {
+      name: "Inner-Strength",
+      image:
+        "../../assets/perks/survivor-perks/inner-strength.png",
+      teachable: "Nancy Wheeler Teachable Perk",
+    },
+    {
+      name: "Iron Will",
+      image:
+        "../../assets/perks/survivor-perks/iron-will.png",
+      teachable: "Jake Park Teachable Perk",
+    },
+    {
+      name: "Kindred",
+      image:
+        "../../assets/perks/survivor-perks/kindred.png",
+      teachable: "All Characters",
+    },
+    {
+      name: "Leader",
+      image:
+        "../../assets/perks/survivor-perks/leader.png",
+      teachable: "Dwight Fairfield Teachable Perk",
+    },
+    {
+      name: "Left Behind",
+      image:
+        "../../assets/perks/survivor-perks/left-behind.png",
+      teachable: 'William "Bill" Overbeck Teachable Perk',
+    },
+    {
+      name: "Lightweight",
+      image:
+        "../../assets/perks/survivor-perks/lightweight.png",
+      teachable: "All Characters",
+    },
+    {
+      name: "Lithe",
+      image:
+        "../../assets/perks/survivor-perks/lithe.png",
+      teachable: "Feng Min Teachable Perk",
+    },
+    {
+      name: "Lucky Break",
+      image:
+        "../../assets/perks/survivor-perks/lucky-break.png",
+      teachable: "Yui Kimura Teachable Perk",
+    },
 ]

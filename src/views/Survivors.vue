@@ -15,16 +15,15 @@
     <h1 class="survName">{{ selectedSurvivor.name }}</h1>
     <h3 class="survDLC">{{ selectedSurvivor.dlc }}</h3>
     <br />
-    <p>
+    <div class="survButton">
       <img
         src="../assets/icons/survivor-icon.png"
         alt="Click here for a random survivor!"
         @click="rndSurv"
         width="90"
         height="90"
-        class="survButton"
       />
-    </p>
+    </div>
   </div>
 </template>
 

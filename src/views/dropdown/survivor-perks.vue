@@ -1,5 +1,5 @@
 <template>
-  <h1>Survivor Perks</h1>
+  <h1 style="margin-top: 1.2rem; font-size: 50px">Survivor Perks</h1>
   <div class="perks" v-if="visible">
     <div class="perk1">
       <img :src="selectedSurvPerk.image" alt="" width="200" />
@@ -31,16 +31,15 @@
   />
   <p id="helperText">Click the Perk icon below!</p>
   <br />
-  <p>
+  <div class="perkButton">
     <img
       src="/assets/icons/perk-icon.png"
       alt="Click here for a random set of perks!"
       @click="rndPerk"
-      width="90"
-      height="90"
-      class="perkButton"
+      width="150"
+      height="150"
     />
-  </p>
+  </div>
 </template>
 
 <script>
@@ -106,7 +105,7 @@ img {
   width: 90px;
 }
 
-.survivors {
+.perks {
   margin-top: 1.2rem;
 }
 

@@ -16,16 +16,15 @@
     <h2>{{ selectedKiller.realName }}</h2>
     <h3>{{ selectedKiller.dlc }}</h3>
     <br />
-    <p>
+    <div class="killerButton">
       <img
         src="../assets/icons/killer-icon.png"
         alt="Click here for a random Killer!"
         @click="rndKiller"
         width="90"
         height="90"
-        class="killerButton"
       />
-    </p>
+    </div>
   </div>
 </template>
 
