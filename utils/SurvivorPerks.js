@@ -551,4 +551,76 @@ export const survivorPerks = [
         "../../assets/perks/survivor-perks/streetwise.png",
       teachable: "Nea Karlsson Teachable Perk",
     },
+    {
+      name: "Technician",
+      image:
+        "../../assets/perks/survivor-perks/technician.png",
+      teachable: "Feng Min Teachable Perk",
+    },
+    {
+      name: "Tenacity",
+      image:
+        "../../assets/perks/survivor-perks/tenacity.png",
+      teachable: "Detective David Tapp Teachable Perk",
+    },
+    {
+      name: "This Is Not Happening",
+      image:
+        "../../assets/perks/survivor-perks/this-is-not-happening.png",
+      teachable: "All Characters",
+    },
+    {
+      name: "Unbreakable",
+      image:
+        "../../assets/perks/survivor-perks/unbreakable.png",
+      teachable: 'William "Bill" Overbeck Teachable Perk',
+    },
+    {
+      name: "Up the Ante",
+      image:
+        "../../assets/perks/survivor-perks/up-the-ante.png",
+      teachable: "Ace Visconti Teachable Perk",
+    },
+    {
+      name: "Urban Evasion",
+      image:
+        "../../assets/perks/survivor-perks/urban-evasion.png",
+      teachable: "Nea Karlsson Teachable Perk",
+    },
+    {
+      name: "Vigil",
+      image:
+        "../../assets/perks/survivor-perks/vigil.png",
+      teachable: "Quentin Smith Teachable Perk",
+    },
+    {
+      name: "Visionary",
+      image:
+        "../../assets/perks/survivor-perks/visionary.png",
+      teachable: "Felix Richter Teachable Perk",
+    },
+    {
+      name: "Wake Up",
+      image:
+        "../../assets/perks/survivor-perks/wake-up.png",
+      teachable: "Quentin Smith Teachable Perk",
+    },
+    {
+      name: "We'll Make It",
+      image:
+        "../../assets/perks/survivor-perks/well-make-it.png",
+      teachable: "All Characters",
+    },
+    {
+      name: "We're Gonna Live Forever",
+      image:
+        "../../assets/perks/survivor-perks/were-gonna-live-forever.png",
+      teachable: "David King Teachable Perk",
+    },
+    {
+      name: "Windows of Opportunity",
+      image:
+        "../../assets/perks/survivor-perks/windows-of-opportunity.png",
+      teachable: "Kate Denson Teachable Perk",
+    },
 ]
