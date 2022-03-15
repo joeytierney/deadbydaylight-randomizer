@@ -42,7 +42,7 @@ export const survivorPerks = [
       teachable: "Adam Francis Teachable Perk",
     },
     {
-      name: "Babysitter",
+      name: "Guardian",
       image:
         "../../assets/perks/survivor-perks/babysitter.png",
       teachable: "Steve Harrington Teachable Perk",
@@ -54,7 +54,7 @@ export const survivorPerks = [
       teachable: "Nea Karlsson Teachable Perk",
     },
     {
-      name: "Better Together",
+      name: "Situational Awareness",
       image:
         "../../assets/perks/survivor-perks/better-together.png",
       teachable: "Nancy Wheeler Teachable Perk",
@@ -156,7 +156,7 @@ export const survivorPerks = [
       teachable: "Jake Park Teachable Perk",
     },
     {
-      name: "Camaraderie",
+      name: "Kinship",
       image:
         "../../assets/perks/survivor-perks/camaraderie.png",
       teachable: "Steve Harrington Teachable Perk",
@@ -264,7 +264,7 @@ export const survivorPerks = [
       teachable: "Yun-Jin Lee Teachable Perk",
     },
     {
-      name: "Fixated",
+      name: "Self-Aware",
       image:
         "../../assets/perks/survivor-perks/fixated.png",
       teachable: "Nancy Wheeler Teachable Perk",
@@ -300,7 +300,7 @@ export const survivorPerks = [
       teachable: "All Characters",
     },
     {
-      name: "Inner-Strength",
+      name: "Inner Healing",
       image:
         "../../assets/perks/survivor-perks/inner-strength.png",
       teachable: "Nancy Wheeler Teachable Perk",
@@ -472,5 +472,83 @@ export const survivorPerks = [
       image:
         "../../assets/perks/survivor-perks/rookie-spirit.png",
       teachable: "Leon S. Kennedy Teachable Perk",
+    },
+    {
+      name: "Saboteur",
+      image:
+        "../../assets/perks/survivor-perks/saboteur.png",
+      teachable: "Jake Park Teachable Perk",
+    },
+    {
+      name: "Self-Care",
+      image:
+        "../../assets/perks/survivor-perks/self-care.png",
+      teachable: "Claudette Morel Teachable Perk",
+    },
+    {
+      name: "Self-Preservation",
+      image:
+        "../../assets/perks/survivor-perks/self-preservation.png",
+      teachable: "Yun-Jin Lee Teachable Perk",
+    },
+    {
+      name: "Slippery Meat",
+      image:
+        "../../assets/perks/survivor-perks/slippery-meat.png",
+      teachable: "All Characters",
+    },
+    {
+      name: "Small Game",
+      image:
+        "../../assets/perks/survivor-perks/small-game.png",
+      teachable: "All Characters",
+    },
+    {
+      name: "Smash Hit",
+      image:
+        "../../assets/perks/survivor-perks/smash-hit.png",
+      teachable: "Yun-Jin Lee Teachable Perk",
+    },
+    {
+      name: "Sole Survivor",
+      image:
+        "../../assets/perks/survivor-perks/sole-survivor.png",
+      teachable: "Laurie Strode Teachable Perk",
+    },
+    {
+      name: "Solidarity",
+      image:
+        "../../assets/perks/survivor-perks/solidarity.png",
+      teachable: "Jane Romero Teachable Perk",
+    },
+    {
+      name: "Soul Guard",
+      image:
+        "../../assets/perks/survivor-perks/soul-guard.png",
+      teachable: "Cheryl Mason Teachable Perk",
+    },
+    {
+      name: "Spine Chill",
+      image:
+        "../../assets/perks/survivor-perks/spine-chill.png",
+      teachable: "All Characters",
+    },
+    {
+      name: "Sprint Burst",
+      image:
+        "../../assets/perks/survivor-perks/sprint-burst.png",
+      teachable: "Meg Thomas Teachable Perk",
+    },
+    {
+      name: "Stake Out",
+      image:
+        "../../assets/perks/survivor-perks/stakeout.png",
+      teachable: "Detective David Tapp Teachable Perk",
+    },
+    {
+      name: "Streetwise",
+      image:
+        "../../assets/perks/survivor-perks/streetwise.png",
+      teachable: "Nea Karlsson Teachable Perk",
     },
 ]
