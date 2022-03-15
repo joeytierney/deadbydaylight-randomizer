@@ -434,7 +434,43 @@ export const survivorPerks = [
     {
       name: "Quick and Quiet",
       image:
-        "../../assets/perks/survivor-perks/quick-and-Quiet.png",
+        "../../assets/perks/survivor-perks/quick-and-quiet.png",
       teachable: "Meg Thomas Teachable Perk",
+    },
+    {
+      name: "Red Herring",
+      image:
+        "../../assets/perks/survivor-perks/red-herring.png",
+      teachable: "Zarina Kassir Teachable Perk",
+    },
+    {
+      name: "Renewal",
+      image:
+        "../../assets/perks/survivor-perks/renewal.png",
+      teachable: "Steve Harrington Teachable Perk",
+    },
+    {
+      name: "Repressed Alliance",
+      image:
+        "../../assets/perks/survivor-perks/repressed-alliance.png",
+      teachable: "Cheryl Mason Teachable Perk",
+    },
+    {
+      name: "Resilience",
+      image:
+        "../../assets/perks/survivor-perks/resilience.png",
+      teachable: "All Characters",
+    },
+    {
+      name: "Resurgence",
+      image:
+        "../../assets/perks/survivor-perks/resurgence.png",
+      teachable: "Jill Valentine Teachable Perk",
+    },
+    {
+      name: "Rookie Spirit",
+      image:
+        "../../assets/perks/survivor-perks/rookie-spirit.png",
+      teachable: "Leon S. Kennedy Teachable Perk",
     },
 ]
