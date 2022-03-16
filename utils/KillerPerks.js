@@ -146,7 +146,7 @@ export const killerPerks = [
     },
     {
         name: "Franklin's Demise",
-        image: "/assets/perks/killer-perks/franklins-demis.png",
+        image: "/assets/perks/killer-perks/franklins-demise.png",
         teachable: "The Cannibal Teachable Perk",
     },
     {
@@ -280,8 +280,8 @@ export const killerPerks = [
         teachable: "The Cannibal Teachable Perk",
     },
     {
-        name: "Leathal Pursuer",
-        image: "/assets/perks/killer-perks/leathal-pursuer.png",
+        name: "Lethal Pursuer",
+        image: "/assets/perks/killer-perks/lethal-pursuer.png",
         teachable: "The Nemesis Teachable Perk",
     },
     {
