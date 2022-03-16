@@ -5,21 +5,25 @@
       <img :src="selectedSurvPerk.image" alt="" width="200" />
       <h1 class="perkName">{{ selectedSurvPerk.name }}</h1>
       <h3 class="perkTeach">{{ selectedSurvPerk.teachable }}</h3>
+      <img :src="selectedSurvPerk.survivor" alt="" />
     </div>
     <div class="perk2">
       <img :src="selectedSurvPerk2.image" alt="" width="200" />
       <h1 class="perkName">{{ selectedSurvPerk2.name }}</h1>
       <h3 class="perkTeach">{{ selectedSurvPerk2.teachable }}</h3>
+      <img :src="selectedSurvPerk2.survivor" alt="" />
     </div>
     <div class="perk3">
       <img :src="selectedSurvPerk3.image" alt="" width="200" />
       <h1 class="perkName">{{ selectedSurvPerk3.name }}</h1>
       <h3 class="perkTeach">{{ selectedSurvPerk3.teachable }}</h3>
+      <img :src="selectedSurvPerk3.survivor" alt="" />
     </div>
     <div class="perk4">
       <img :src="selectedSurvPerk4.image" alt="" width="200" />
       <h1 class="perkName">{{ selectedSurvPerk4.name }}</h1>
       <h3 class="perkTeach">{{ selectedSurvPerk4.teachable }}</h3>
+      <img :src="selectedSurvPerk4.survivor" alt="" />
     </div>
   </div>
   <img
