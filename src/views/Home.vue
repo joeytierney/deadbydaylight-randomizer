@@ -1,4 +1,9 @@
 <template>
+  <img
+    src="/assets/icons/Logo_dbd.png"
+    alt="Dead by Daylight logo"
+    style="margin-top: 1.2rem"
+  />
   <div class="home">
     <br />
     <h2 class="sidebar-title">About</h2>
