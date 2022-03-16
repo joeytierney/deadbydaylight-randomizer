@@ -6,7 +6,7 @@
       <img :src="selectedKiller.image" alt="Click the killer icon below!" />
     </div>
     <img
-      src="../assets/icons/Unknown_QuestionMark.png"
+      src="/assets/icons/character-empty.png"
       alt="Random Killer Placeholder"
       class="questionMark"
       id="questionPlaceholder"
@@ -85,11 +85,6 @@ h3 {
 
 img {
   color: white;
-}
-
-.questionMark {
-  height: 90px;
-  width: 90px;
 }
 
 .killers {

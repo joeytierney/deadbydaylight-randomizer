@@ -6,7 +6,7 @@
       <img :src="selectedSurvivor.image" alt="Click the survivor icon below!" />
     </div>
     <img
-      src="../assets/icons/Unknown_QuestionMark.png"
+      src="/assets/icons/character-empty.png"
       alt="Random Survivor Placeholder"
       class="questionMark"
       id="questionPlaceholder"
@@ -67,11 +67,6 @@ h3 {
 
 img {
   color: white;
-}
-
-.questionMark {
-  height: 90px;
-  width: 90px;
 }
 
 .survivors {
