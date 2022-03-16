@@ -298,7 +298,7 @@ export const killerPerks = [
         image: "/assets/perks/killer-perks/im-all-ears.png",
         teachable: "The Ghost Face Teachable Perk",
         killer: "/assets/character-portraits/killers/16-the-ghost-face.png",
-    },,
+    },
     {
         name: "Infectious Fright",
         image: "/assets/perks/killer-perks/infectious-fright.png",
@@ -346,7 +346,7 @@ export const killerPerks = [
         image: "/assets/perks/killer-perks/lightborn.png",
         teachable: "The Hillbilly Teachable Perk",
         killer: "/assets/character-portraits/killers/03-the-hillbilly.png",
-    },,
+    },
     {
         name: "Mad Grit",
         image: "/assets/perks/killer-perks/mad-grit.png",
