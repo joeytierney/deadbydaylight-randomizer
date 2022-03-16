@@ -122,19 +122,19 @@ export const survivorsArray = [
       {
         name: "Lisa Garland",
         image: "../assets/character-portraits/survivors/22a-lisa-garland.png",
-        dlc: "LEGENDAY SKIN FOR: Cheryl Mason",
+        dlc: "LEGENDARY SKIN FOR: Cheryl Mason",
       },
       {
         name: "Cybil Bennett",
         image:
           "../assets/character-portraits/survivors/22b-cybil-bennett.png",
-        dlc: "LEGENDAY SKIN FOR: Cheryl Mason",
+        dlc: "LEGENDARY SKIN FOR: Cheryl Mason",
       },
       {
         name: "James Sunderland",
         image:
           "../assets/character-portraits/survivors/22c-james-sunderland.png",
-        dlc: "LEGENDAY SKIN FOR: Cheryl Mason",
+        dlc: "LEGENDARY SKIN FOR: Cheryl Mason",
       },
       {
         name: "Felix Richter",
