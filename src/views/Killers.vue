@@ -39,9 +39,12 @@ export default {
     };
   },
   methods: {
-    rndKiller() {
+    randomArray() {
       const idx = Math.floor(Math.random() * this.killersArray.length);
       this.selectedKiller = this.killersArray[idx];
+    },
+    rndKiller() {
+      this.randomArray();
       document.getElementById("questionPlaceholder").remove();
       document.getElementById("helperText").remove();
       this.visible = true;

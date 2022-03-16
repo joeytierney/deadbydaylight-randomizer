@@ -189,7 +189,7 @@ export const survivorPerks = [
       name: "Dark Sense",
       image:
         "../../assets/perks/survivor-perks/dark-sense.png",
-      teachable: "All Characters",
+      teachable: "All Survivors",
     },
     {
       name: "Dead Hard",
@@ -213,7 +213,7 @@ export const survivorPerks = [
       name: "Déjà Vu",
       image:
         "../../assets/perks/survivor-perks/deja-vu.png",
-      teachable: "All Characters",
+      teachable: "All Survivors",
     },
     {
       name: "Deliverance",
@@ -297,7 +297,7 @@ export const survivorPerks = [
       name: "Hope",
       image:
         "../../assets/perks/survivor-perks/hope.png",
-      teachable: "All Characters",
+      teachable: "All Survivors",
     },
     {
       name: "Inner Healing",
@@ -315,7 +315,7 @@ export const survivorPerks = [
       name: "Kindred",
       image:
         "../../assets/perks/survivor-perks/kindred.png",
-      teachable: "All Characters",
+      teachable: "All Survivors",
     },
     {
       name: "Leader",
@@ -333,7 +333,7 @@ export const survivorPerks = [
       name: "Lightweight",
       image:
         "../../assets/perks/survivor-perks/lightweight.png",
-      teachable: "All Characters",
+      teachable: "All Survivors",
     },
     {
       name: "Lithe",
@@ -363,7 +363,7 @@ export const survivorPerks = [
       name: "No One Left Behind",
       image:
         "../../assets/perks/survivor-perks/no-one-left-behind.png",
-      teachable: "All Characters",
+      teachable: "All Survivors",
     },
     {
       name: "Object of Obsession",
@@ -405,7 +405,7 @@ export const survivorPerks = [
       name: "Plunderers Instinct",
       image:
         "../../assets/perks/survivor-perks/plunderers-instinct.png",
-      teachable: "All Characters",
+      teachable: "All Survivors",
     },
     {
       name: "Poised",
@@ -423,7 +423,7 @@ export const survivorPerks = [
       name: "Premonition",
       image:
         "../../assets/perks/survivor-perks/premonition.png",
-      teachable: "All Characters",
+      teachable: "All Survivors",
     },
     {
       name: "Prove Thyself",
@@ -459,7 +459,7 @@ export const survivorPerks = [
       name: "Resilience",
       image:
         "../../assets/perks/survivor-perks/resilience.png",
-      teachable: "All Characters",
+      teachable: "All Survivors",
     },
     {
       name: "Resurgence",
@@ -495,13 +495,13 @@ export const survivorPerks = [
       name: "Slippery Meat",
       image:
         "../../assets/perks/survivor-perks/slippery-meat.png",
-      teachable: "All Characters",
+      teachable: "All Survivors",
     },
     {
       name: "Small Game",
       image:
         "../../assets/perks/survivor-perks/small-game.png",
-      teachable: "All Characters",
+      teachable: "All Survivors",
     },
     {
       name: "Smash Hit",
@@ -531,7 +531,7 @@ export const survivorPerks = [
       name: "Spine Chill",
       image:
         "../../assets/perks/survivor-perks/spine-chill.png",
-      teachable: "All Characters",
+      teachable: "All Survivors",
     },
     {
       name: "Sprint Burst",
@@ -567,7 +567,7 @@ export const survivorPerks = [
       name: "This Is Not Happening",
       image:
         "../../assets/perks/survivor-perks/this-is-not-happening.png",
-      teachable: "All Characters",
+      teachable: "All Survivors",
     },
     {
       name: "Unbreakable",
@@ -609,7 +609,7 @@ export const survivorPerks = [
       name: "We'll Make It",
       image:
         "../../assets/perks/survivor-perks/well-make-it.png",
-      teachable: "All Characters",
+      teachable: "All Survivors",
     },
     {
       name: "We're Gonna Live Forever",

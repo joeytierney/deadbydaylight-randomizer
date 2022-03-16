@@ -56,7 +56,7 @@ export default {
     };
   },
   methods: {
-    rndPerk() {
+    randomArray() {
       const idx = Math.floor(Math.random() * this.killerPerks.length);
       const idx2 = Math.floor(Math.random() * this.killerPerks.length);
       const idx3 = Math.floor(Math.random() * this.killerPerks.length);
@@ -65,6 +65,26 @@ export default {
       this.selectedKillerPerk2 = this.killerPerks[idx2];
       this.selectedKillerPerk3 = this.killerPerks[idx3];
       this.selectedKillerPerk4 = this.killerPerks[idx4];
+      this.checkForRepeat();
+    },
+    checkForRepeat() {
+      if (this.selectedKillerPerk === this.selectedKillerPerk2) {
+        this.randomArray();
+      } else if (this.selectedKillerPerk === this.selectedKillerPerk3) {
+        this.randomArray();
+      } else if (this.selectedKillerPerk === this.selectedKillerPerk4) {
+        this.randomArray();
+      } else if (this.selectedKillerPerk2 === this.selectedKillerPerk3) {
+        this.randomArray();
+      } else if (this.selectedKillerPerk2 === this.selectedKillerPerk4) {
+        this.randomArray();
+      } else if (this.selectedKillerPerk3 === this.selectedKillerPerk4) {
+        this.randomArray();
+      }
+    },
+    rndPerk() {
+      this.randomArray();
+      this.checkForRepeat();
       document.getElementById("emptyPerk").remove();
       document.getElementById("helperText").remove();
       this.visible = true;

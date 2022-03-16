@@ -56,7 +56,7 @@ export default {
     };
   },
   methods: {
-    rndPerk() {
+    randomArray() {
       const idx = Math.floor(Math.random() * this.survivorPerks.length);
       const idx2 = Math.floor(Math.random() * this.survivorPerks.length);
       const idx3 = Math.floor(Math.random() * this.survivorPerks.length);
@@ -65,6 +65,26 @@ export default {
       this.selectedSurvPerk2 = this.survivorPerks[idx2];
       this.selectedSurvPerk3 = this.survivorPerks[idx3];
       this.selectedSurvPerk4 = this.survivorPerks[idx4];
+      this.checkForRepeat();
+    },
+    checkForRepeat() {
+      if (this.selectedSurvPerk === this.selectedSurvPerk2) {
+        this.randomArray();
+      } else if (this.selectedSurvPerk === this.selectedSurvPerk3) {
+        this.randomArray();
+      } else if (this.selectedSurvPerk === this.selectedSurvPerk4) {
+        this.randomArray();
+      } else if (this.selectedSurvPerk2 === this.selectedSurvPerk3) {
+        this.randomArray();
+      } else if (this.selectedSurvPerk2 === this.selectedSurvPerk4) {
+        this.randomArray();
+      } else if (this.selectedSurvPerk3 === this.selectedSurvPerk4) {
+        this.randomArray();
+      }
+    },
+    rndPerk() {
+      this.checkForRepeat();
+      this.randomArray();
       document.getElementById("emptyPerk").remove();
       document.getElementById("helperText").remove();
       this.visible = true;
