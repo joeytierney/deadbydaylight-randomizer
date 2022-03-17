@@ -18,7 +18,7 @@
     <br />
     <div class="killerButton">
       <img
-        src="../assets/icons/killer-icon.png"
+        src="/assets/icons/killer-icon.png"
         alt="Click here for a random Killer!"
         @click="rndKiller"
         width="90"

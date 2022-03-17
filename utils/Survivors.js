@@ -1,8 +1,7 @@
 export const survivorsArray = [
     {
         name: "Dwight Fairfield",
-        image:
-          "../assets/character-portraits/survivors/01-dwight-fairfield.png",
+        image: "/assets/character-portraits/survivors/01-dwight-fairfield.png",
         dlc: "",
       },
       {
@@ -12,8 +11,7 @@ export const survivorsArray = [
       },
       {
         name: "Claudette Morel",
-        image:
-          "../assets/character-portraits/survivors/03-claudette-morel.png",
+        image: "/assets/character-portraits/survivors/03-claudette-morel.png",
         dlc: "",
       },
       {
@@ -58,8 +56,7 @@ export const survivorsArray = [
       },
       {
         name: "Detective David Tapp",
-        image:
-          "../assets/character-portraits/survivors/12-detective-david-tapp.png",
+        image: "/assets/character-portraits/survivors/12-detective-david-tapp.png",
         dlc: "CHAPTER VII: SAW™",
       },
       {
@@ -94,14 +91,12 @@ export const survivorsArray = [
       },
       {
         name: "Steve Harrington",
-        image:
-          "../assets/character-portraits/survivors/19-steve-harrington.png",
+        image: "/assets/character-portraits/survivors/19-steve-harrington.png",
         dlc: "CHAPTER XIII: Stranger Things",
       },
       {
         name: "Jonathan Byers",
-        image:
-          "../assets/character-portraits/survivors/19a-jonathan-byers.png",
+        image: "/assets/character-portraits/survivors/19a-jonathan-byers.png",
         dlc: "LEGENDARY SKIN FOR: Steve Harrington",
       },
       {
@@ -126,14 +121,12 @@ export const survivorsArray = [
       },
       {
         name: "Cybil Bennett",
-        image:
-          "../assets/character-portraits/survivors/22b-cybil-bennett.png",
+        image: "/assets/character-portraits/survivors/22b-cybil-bennett.png",
         dlc: "LEGENDARY SKIN FOR: Cheryl Mason",
       },
       {
         name: "James Sunderland",
-        image:
-          "../assets/character-portraits/survivors/22c-james-sunderland.png",
+        image: "/assets/character-portraits/survivors/22c-james-sunderland.png",
         dlc: "LEGENDARY SKIN FOR: Cheryl Mason",
       },
       {
@@ -153,26 +146,22 @@ export const survivorsArray = [
       },
       {
         name: "Jill Valentine",
-        image:
-          "../assets/character-portraits/survivors/26-jill-valentine.png",
+        image: "/assets/character-portraits/survivors/26-jill-valentine.png",
         dlc: "CHAPTER XX: Resident Evil",
       },
       {
         name: "Claire Redfield",
-        image:
-          "../assets/character-portraits/survivors/26a-claire-redfield.png",
+        image: "/assets/character-portraits/survivors/26a-claire-redfield.png",
         dlc: "LEGENDARY SKIN FOR: Jill Valentine",
       },
       {
         name: "Leon S. Kennedy",
-        image:
-          "../assets/character-portraits/survivors/27-leon-s-kennedy.png",
+        image: "/assets/character-portraits/survivors/27-leon-s-kennedy.png",
         dlc: "CHAPTER XX: Resident Evil",
       },
       {
         name: "Chris Redfield",
-        image:
-          "../assets/character-portraits/survivors/27a-chris-redfield.png",
+        image: "/assets/character-portraits/survivors/27a-chris-redfield.png",
         dlc: "LEGENDARY SKIN FOR: Leon S. Kennedy",
       },
       {
@@ -187,8 +176,7 @@ export const survivorsArray = [
       },
       {
         name: "Yoichi Asakawa",
-        image:
-          "../assets/character-portraits/survivors/30-yoichi-asakawa.png",
+        image: "/assets/character-portraits/survivors/30-yoichi-asakawa.png",
         dlc: "CHAPTER XXIII: Sadako Rising",
       },
 ]
