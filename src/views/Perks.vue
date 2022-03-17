@@ -39,6 +39,7 @@ nav .menu-item svg {
   width: 10px;
   margin-left: 10px;
 }
+
 nav .menu-item .sub-menu {
   position: absolute;
   background-color: #222;
@@ -48,14 +49,17 @@ nav .menu-item .sub-menu {
   width: max-content;
   border-radius: 0px 0px 16px 16px;
 }
+
 .fade-enter-active,
 .fade-leave-active {
   transition: all 0.5s ease-out;
 }
+
 .fade-enter,
 .fade-leave-to {
   opacity: 0;
 }
+
 .sub-menu {
   cursor: pointer;
 }

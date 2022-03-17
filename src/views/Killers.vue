@@ -54,17 +54,6 @@ export default {
 </script>
 
 <style scoped>
-h1 {
-  font-size: 50px;
-  font-weight: bold;
-  font-style: normal;
-  line-height: 50px;
-  margin: 0 0 15px 0;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff;
-}
-
 h2 {
   font-size: 24px;
   font-weight: bold;
@@ -84,10 +73,6 @@ h3 {
   text-align: center;
   text-transform: uppercase;
   color: #aa0101;
-}
-
-img {
-  color: white;
 }
 
 .killers {

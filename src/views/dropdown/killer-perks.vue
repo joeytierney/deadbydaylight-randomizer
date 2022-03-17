@@ -100,28 +100,10 @@ export default {
 <style scoped>
 h1 {
   font-size: 20px;
-  font-weight: bold;
-  font-style: normal;
-  line-height: 50px;
-  margin: 0 0 15px 0;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff;
 }
 
 h3 {
-  font-size: 14px;
-  font-weight: bold;
-  font-style: normal;
-  line-height: 14px;
-  margin: 0 0 10px 0;
-  text-align: center;
-  text-transform: uppercase;
   color: #ff8800;
-}
-
-img {
-  color: white;
 }
 
 .questionMark {

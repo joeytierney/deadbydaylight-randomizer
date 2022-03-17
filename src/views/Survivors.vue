@@ -53,10 +53,6 @@ export default {
 </script>
 
 <style scoped>
-h1 {
-  color: white;
-}
-
 h3 {
   font-size: 14px;
   font-weight: bold;
@@ -66,10 +62,6 @@ h3 {
   text-align: center;
   text-transform: uppercase;
   color: #aa0101;
-}
-
-img {
-  color: white;
 }
 
 .survivors {
