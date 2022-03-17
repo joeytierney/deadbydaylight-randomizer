@@ -6,69 +6,73 @@
   />
   <div class="home">
     <br />
-    <h2 class="sidebar-title">About</h2>
-    <h3 class="sidebar-title">This website</h3>
-    <p class="sidebar-text">
-      <span
-        >Tired of playing as the same character? Do you already have all perks
+    <h2>About</h2>
+    <h3>This website</h3>
+    <p>
+      <span>
+        Tired of playing as the same character? Do you already have all perks
         unlocked? Do you need a new challenge? Want to try some perks you never
-        used before?</span
-      ><span class="white"> Then is this the website you searched for.</span>
+        used before?
+      </span>
+      <span>
+        <b>Then is this the website you searched for.</b>
+      </span>
     </p>
     <br />
-    <p class="sidebar-text">
-      <span
-        >This site randomly selects your Killer, Survivor, and four Killer or
-        Survivor Perks for you to play with in a game of Dead by Daylight.</span
-      >
+    <p>
+      <span>
+        This site randomly selects your Killer, Survivor, and four Killer or
+        Survivor Perks for you to play with in a game of Dead by Daylight.
+      </span>
     </p>
     <br />
-    <h3 class="sidebar-title">The game</h3>
-    <p class="sidebar-text">
-      <span
-        ><a
+    <h3>The game</h3>
+    <p>
+      <span>
+        <a
           class="link"
           href="https://deadbydaylight.com"
           target="_blank"
           title="https://deadbydaylight.com"
           rel="noreferrer"
-          >Dead by Daylight</a
         >
+          Dead by Daylight
+        </a>
         is an asymmetrical multiplayer (4vs1) horror game where one player takes
         on the role of the savage Killer, and the other four players play as
         Survivors, trying to escape the Killer and avoid being caught and
-        killed.</span
-      >
+        killed.
+      </span>
     </p>
     <br />
-    <div class="sidebar-column" id="c2">
-      <h2 class="sidebar-title">Disclaimer</h2>
-      <p class="sidebar-text white">
-        <span
-          >This site is not associated with, endorsed by, or in any other form
-          connected with any company.</span
-        >
-      </p>
-
-      <p class="sidebar-text">
-        <span
-          >DEAD BY DAYLIGHT® is a registered trademark of Behaviour Interactive
-          Inc. in Canada, the United States of America and/or other
-          countries.</span
-        >
-      </p>
-
-      <p class="sidebar-text">
-        <span
-          >Use at your own risk. This site runs in your browser, no data is
-          saved on the server.</span
-        >
+    <div>
+      <h2>Disclaimer</h2>
+      <p>
+        <span>
+          <b
+            >This site is not associated with, endorsed by, or in any other form
+            connected with any company.</b
+          >
+        </span>
       </p>
       <br />
-      <h3 class="sidebar-title">Image and music credit</h3>
-      <p class="sidebar-text">
-        <span
-          >The character portraits, perk icons and menu music are game related
+      <p>
+        <span>
+          DEAD BY DAYLIGHT® is a registered trademark of Behaviour Interactive
+          Inc. in Canada, the United States of America and/or other countries.
+        </span>
+      </p>
+      <p>
+        <span>
+          Use at your own risk. This site runs in your browser, no data is saved
+          on the server.
+        </span>
+      </p>
+      <br />
+      <h3>Image and music credit</h3>
+      <p>
+        <span>
+          The character portraits, perk icons and menu music are game related
           content and therefore property of
           <a
             class="link"
@@ -76,8 +80,8 @@
             target="_blank"
             title="https://www.bhvr.com/"
             rel="noreferrer"
-            >Behaviour</a
-          >
+            >Behaviour
+          </a>
           and were taken from the official
           <a
             class="link"
@@ -85,12 +89,12 @@
             target="_blank"
             title="https://deadbydaylight.gamepedia.com/Dead_by_Daylight_Wiki"
             rel="noreferrer"
-            >Dead by Daylight wiki</a
-          >.</span
-        >
+            >Dead by Daylight wiki </a
+          >.
+        </span>
       </p>
       <br />
-      <p class="sidebar-text">
+      <p>
         <span>All other images were created by the author.</span>
       </p>
     </div>
@@ -98,8 +102,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
-
 export default {
   name: "Home",
   components: {},
@@ -157,12 +159,6 @@ p {
   margin: unset;
   display: block;
   color: white;
-}
-
-p.site-paragraph {
-  line-height: 1.5;
-  font-size: 18px;
-  margin-bottom: 15px;
 }
 
 a.link {

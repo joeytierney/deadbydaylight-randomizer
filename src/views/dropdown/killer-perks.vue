@@ -5,25 +5,25 @@
       <img :src="selectedKillerPerk.image" alt="" width="200" />
       <h1 class="perkName">{{ selectedKillerPerk.name }}</h1>
       <h3 class="perkTeach">{{ selectedKillerPerk.teachable }}</h3>
-      <img :src="selectedKillerPerk.killer" alt="" />
+      <img :src="selectedKillerPerk.killer" alt="" width="200" />
     </div>
     <div class="perk2">
       <img :src="selectedKillerPerk2.image" alt="" width="200" />
       <h1 class="perkName">{{ selectedKillerPerk2.name }}</h1>
       <h3 class="perkTeach">{{ selectedKillerPerk2.teachable }}</h3>
-      <img :src="selectedKillerPerk2.killer" alt="" />
+      <img :src="selectedKillerPerk2.killer" alt="" width="200" />
     </div>
     <div class="perk3">
       <img :src="selectedKillerPerk3.image" alt="" width="200" />
       <h1 class="perkName">{{ selectedKillerPerk3.name }}</h1>
       <h3 class="perkTeach">{{ selectedKillerPerk3.teachable }}</h3>
-      <img :src="selectedKillerPerk3.killer" alt="" />
+      <img :src="selectedKillerPerk3.killer" alt="" width="200" />
     </div>
     <div class="perk4">
       <img :src="selectedKillerPerk4.image" alt="" width="200" />
       <h1 class="perkName">{{ selectedKillerPerk4.name }}</h1>
       <h3 class="perkTeach">{{ selectedKillerPerk4.teachable }}</h3>
-      <img :src="selectedKillerPerk4.killer" alt="" />
+      <img :src="selectedKillerPerk4.killer" alt="" width="200" />
     </div>
   </div>
   <img
@@ -117,7 +117,7 @@ h3 {
   margin: 0 0 10px 0;
   text-align: center;
   text-transform: uppercase;
-  color: #aa0101;
+  color: #ff8800;
 }
 
 img {
