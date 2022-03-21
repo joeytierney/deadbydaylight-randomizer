@@ -10,7 +10,7 @@
         ><img
           src="/assets/icons/offering-icon.png"
           alt="Return Home Button"
-          width="125" /></router-link
+          class="homeButton" /></router-link
     ></a>
     <p>Return to the campfire</p>
   </div>
@@ -18,28 +18,28 @@
 
 <style scoped>
 h1 {
-  font-size: 210px;
-  line-height: 190px;
-  margin: 100px 0 0;
+  font-size: 13.125rem;
+  line-height: 11.875rem;
+  margin: 6.25rem 0 0;
   text-align: center;
 }
 
 h2 {
-  font-size: 44px;
-  line-height: 38px;
+  font-size: 2.75rem;
+  line-height: 2.375rem;
   text-align: center;
 }
 
 p.entityText {
-  font-size: 28px;
+  font-size: 1.75rem;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 6.25rem;
 }
 
 a {
   text-align: center;
   text-decoration: none;
-  line-height: 30px;
+  line-height: 1.875rem;
 }
 
 .returnHome {
@@ -47,6 +47,11 @@ a {
 }
 
 .returnHome:active {
-  transform: translateY(4px);
+  transform: translateY(0.25rem);
+}
+
+.homeButton {
+  width: 7.8125rem;
+  height: 7.8125rem;
 }
 </style>

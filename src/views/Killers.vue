@@ -21,8 +21,7 @@
         src="/assets/icons/killer-icon.png"
         alt="Click here for a random Killer!"
         @click="rndKiller"
-        width="120"
-        height="120"
+        class="randomKillerButton"
       />
     </div>
   </div>
@@ -55,21 +54,22 @@ export default {
 
 <style scoped>
 h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
   font-style: normal;
-  line-height: 24px;
-  margin: 0 0 10px 0;
+  line-height: 1.5rem;
+  margin: 0 0 0.625rem 0;
   text-align: center;
   text-transform: uppercase;
   color: #cccccc;
 }
+
 h3 {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: bold;
   font-style: normal;
-  line-height: 14px;
-  margin: 0 0 10px 0;
+  line-height: 0.875rem;
+  margin: 0 0 0.625rem 0;
   text-align: center;
   text-transform: uppercase;
   color: #aa0101;
@@ -88,6 +88,11 @@ img {
 }
 
 .killerButton:active {
-  transform: translateY(4px);
+  transform: translateY(0.25rem);
+}
+
+.randomKillerButton {
+  width: 7.5rem;
+  height: 7.5rem;
 }
 </style>

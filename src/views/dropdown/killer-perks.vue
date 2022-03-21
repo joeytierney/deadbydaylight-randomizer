@@ -1,24 +1,24 @@
 <template>
-  <h1 style="margin-top: 1.2rem; font-size: 50px">Killer Perks</h1>
+  <h1>Killer Perks</h1>
   <div class="perks" v-if="visible">
     <div class="perk1">
       <img
         :src="selectedKillerPerk.image"
         :alt="selectedKillerPerk.name"
-        width="200"
+        class="killerPerks"
       />
       <h1 class="perkName">{{ selectedKillerPerk.name }}</h1>
       <h3 class="perkTeach">{{ selectedKillerPerk.teachable }}</h3>
       <img
         :src="selectedKillerPerk.killer"
         :alt="selectedKillerPerk.teachable"
-        width="200"
+        class="killerPerkOwner"
       />
       <p class="rerollPerk">
         <img
           src="/assets/icons/reroll.png"
           alt="Reroll Icon"
-          width="123"
+          class="rerollIcon"
           @click="rerollPerk1()"
         /><br />Reroll Perk
       </p>
@@ -27,20 +27,20 @@
       <img
         :src="selectedKillerPerk2.image"
         :alt="selectedKillerPerk2.name"
-        width="200"
+        class="killerPerks"
       />
       <h1 class="perkName">{{ selectedKillerPerk2.name }}</h1>
       <h3 class="perkTeach">{{ selectedKillerPerk2.teachable }}</h3>
       <img
         :src="selectedKillerPerk2.killer"
         :alt="selectedKillerPerk2.teachable"
-        width="200"
+        class="killerPerkOwner"
       />
       <p class="rerollPerk">
         <img
           src="/assets/icons/reroll.png"
           alt="Reroll Icon"
-          width="123"
+          class="rerollIcon"
           @click="rerollPerk2()"
         /><br />Reroll Perk
       </p>
@@ -49,20 +49,20 @@
       <img
         :src="selectedKillerPerk3.image"
         :alt="selectedKillerPerk3.name"
-        width="200"
+        class="killerPerks"
       />
       <h1 class="perkName">{{ selectedKillerPerk3.name }}</h1>
       <h3 class="perkTeach">{{ selectedKillerPerk3.teachable }}</h3>
       <img
         :src="selectedKillerPerk3.killer"
         :alt="selectedKillerPerk3.teachable"
-        width="200"
+        class="killerPerkOwner"
       />
       <p class="rerollPerk">
         <img
           src="/assets/icons/reroll.png"
           alt="Reroll Icon"
-          width="123"
+          class="rerollIcon"
           @click="rerollPerk3()"
         /><br />Reroll Perk
       </p>
@@ -71,20 +71,20 @@
       <img
         :src="selectedKillerPerk4.image"
         :alt="selectedKillerPerk4.name"
-        width="200"
+        class="killerPerks"
       />
       <h1 class="perkName">{{ selectedKillerPerk4.name }}</h1>
       <h3 class="perkTeach">{{ selectedKillerPerk4.teachable }}</h3>
       <img
         :src="selectedKillerPerk4.killer"
         :alt="selectedKillerPerk4.teachable"
-        width="200"
+        class="killerPerkOwner"
       />
       <p class="rerollPerk">
         <img
           src="/assets/icons/reroll.png"
           alt="Reroll Icon"
-          width="123"
+          class="rerollIcon"
           @click="rerollPerk4()"
         /><br />Reroll Perk
       </p>
@@ -95,7 +95,6 @@
     alt="Random Killer Perk Placeholder"
     class="emptyPerk"
     id="emptyPerk"
-    width="200"
   />
   <br />
   <br />
@@ -106,8 +105,7 @@
       src="/assets/icons/perk-icon.png"
       alt="Click here for a random set of perks!"
       @click="rndPerk"
-      width="150"
-      height="150"
+      class="randomPerkButton"
     />
   </div>
 </template>
@@ -209,7 +207,8 @@ export default {
 
 <style scoped>
 h1 {
-  font-size: 20px;
+  margin-top: 1.2rem;
+  font-size: 3.125rem;
 }
 
 h3 {
@@ -221,12 +220,12 @@ img {
 }
 
 p {
-  line-height: 1px;
+  line-height: 0.0625rem;
 }
 
 .questionMark {
-  height: 90px;
-  width: 90px;
+  height: 5.625rem;
+  width: 5.625rem;
 }
 
 .perks {
@@ -241,6 +240,15 @@ p {
   font-size: 1rem;
 }
 
+.emptyPerk {
+  width: 12.5rem;
+}
+
+.randomPerkButton {
+  width: 9.375rem;
+  height: 9.375rem;
+}
+
 .perkButton,
 .rerollPerk {
   cursor: pointer;
@@ -248,26 +256,35 @@ p {
 
 .perkButton:active,
 .rerollPerk:active {
-  transform: translateY(4px);
+  transform: translateY(0.25rem);
 }
 
 .perk1 {
   width: 20%;
-  height: 350px;
+  height: 21.875rem;
 }
 
 .perk2 {
   width: 20%;
-  height: 350px;
+  height: 21.875rem;
 }
 
 .perk3 {
   width: 20%;
-  height: 350px;
+  height: 21.875rem;
 }
 
 .perk4 {
   width: 20%;
-  height: 350px;
+  height: 21.875rem;
+}
+
+.killerPerks,
+.killerPerkOwner {
+  width: 12.5rem;
+}
+
+.rerollIcon {
+  width: 7.6875rem;
 }
 </style>

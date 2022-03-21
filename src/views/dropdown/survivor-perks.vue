@@ -1,24 +1,24 @@
 <template>
-  <h1 style="margin-top: 1.2rem; font-size: 50px">Survivor Perks</h1>
+  <h1>Survivor Perks</h1>
   <div class="perks" v-if="visible">
     <div class="perk1">
       <img
         :src="selectedSurvPerk.image"
         :alt="selectedSurvPerk.name"
-        width="200"
+        class="survivorPerks"
       />
       <h1 class="perkName">{{ selectedSurvPerk.name }}</h1>
       <h3 class="perkTeach">{{ selectedSurvPerk.teachable }}</h3>
       <img
         :src="selectedSurvPerk.survivor"
         :alt="selectedSurvPerk.teachable"
-        width="200"
+        class="survivorPerkOwner"
       />
       <p class="rerollPerk">
         <img
           src="/assets/icons/reroll.png"
           alt="Reroll Icon"
-          width="123"
+          class="rerollIcon"
           @click="rerollPerk1()"
         /><br />Reroll Perk
       </p>
@@ -27,20 +27,20 @@
       <img
         :src="selectedSurvPerk2.image"
         :alt="selectedSurvPerk2.name"
-        width="200"
+        class="survivorPerks"
       />
       <h1 class="perkName">{{ selectedSurvPerk2.name }}</h1>
       <h3 class="perkTeach">{{ selectedSurvPerk2.teachable }}</h3>
       <img
         :src="selectedSurvPerk2.survivor"
         :alt="selectedSurvPerk2.teachable"
-        width="200"
+        class="survivorPerkOwner"
       />
       <p class="rerollPerk">
         <img
           src="/assets/icons/reroll.png"
           alt="Reroll Icon"
-          width="123"
+          class="rerollIcon"
           @click="rerollPerk2()"
         /><br />Reroll Perk
       </p>
@@ -49,20 +49,20 @@
       <img
         :src="selectedSurvPerk3.image"
         :alt="selectedSurvPerk3.name"
-        width="200"
+        class="survivorPerks"
       />
       <h1 class="perkName">{{ selectedSurvPerk3.name }}</h1>
       <h3 class="perkTeach">{{ selectedSurvPerk3.teachable }}</h3>
       <img
         :src="selectedSurvPerk3.survivor"
         :alt="selectedSurvPerk3.teachable"
-        width="200"
+        class="survivorPerkOwner"
       />
       <p class="rerollPerk">
         <img
           src="/assets/icons/reroll.png"
           alt="Reroll Icon"
-          width="123"
+          class="rerollIcon"
           @click="rerollPerk3()"
         /><br />Reroll Perk
       </p>
@@ -71,20 +71,20 @@
       <img
         :src="selectedSurvPerk4.image"
         :alt="selectedSurvPerk4.name"
-        width="200"
+        class="survivorPerks"
       />
       <h1 class="perkName">{{ selectedSurvPerk4.name }}</h1>
       <h3 class="perkTeach">{{ selectedSurvPerk4.teachable }}</h3>
       <img
         :src="selectedSurvPerk4.survivor"
         :alt="selectedSurvPerk4.teachable"
-        width="200"
+        class="survivorPerkOwner"
       />
       <p class="rerollPerk">
         <img
           src="/assets/icons/reroll.png"
           alt="Reroll Icon"
-          width="123"
+          class="rerollIcon"
           @click="rerollPerk4()"
         /><br />Reroll Perk
       </p>
@@ -95,7 +95,6 @@
     alt="Random Survivor Perk Placeholder Icon"
     class="emptyPerk"
     id="emptyPerk"
-    width="200"
   />
   <br />
   <br />
@@ -106,8 +105,7 @@
       src="/assets/icons/perk-icon.png"
       alt="Click here for a random set of perks!"
       @click="rndPerk"
-      width="150"
-      height="150"
+      class="randomPerkButton"
     />
   </div>
 </template>
@@ -209,7 +207,8 @@ export default {
 
 <style scoped>
 h1 {
-  font-size: 20px;
+  margin-top: 1.2rem;
+  font-size: 3.125rem;
 }
 
 h3 {
@@ -221,12 +220,21 @@ img {
 }
 
 p {
-  line-height: 1px;
+  line-height: 0.0625rem;
 }
 
 .questionMark {
-  height: 90px;
-  width: 90px;
+  height: 5.625rem;
+  width: 5.625rem;
+}
+
+.emptyPerk {
+  width: 12.5rem;
+}
+
+.randomPerkButton {
+  width: 9.375rem;
+  height: 9.375rem;
 }
 
 .perks {
@@ -244,7 +252,7 @@ p {
 
 .perkButton:active,
 .rerollPerk:active {
-  transform: translateY(4px);
+  transform: translateY(0.25rem);
 }
 
 .perkName {
@@ -253,21 +261,30 @@ p {
 
 .perk1 {
   width: 20%;
-  height: 350px;
+  height: 21.875rem;
 }
 
 .perk2 {
   width: 20%;
-  height: 350px;
+  height: 21.875rem;
 }
 
 .perk3 {
   width: 20%;
-  height: 350px;
+  height: 21.875rem;
 }
 
 .perk4 {
   width: 20%;
-  height: 350px;
+  height: 21.875rem;
+}
+
+.survivorPerks,
+.survivorPerkOwner {
+  width: 12.5rem;
+}
+
+.rerollIcon {
+  width: 7.6875rem;
 }
 </style>

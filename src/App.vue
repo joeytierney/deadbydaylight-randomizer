@@ -39,7 +39,7 @@ export default {
 
 body {
   margin: 0;
-  margin-bottom: 100px;
+  margin-bottom: 6.25rem;
   padding: 0;
   font-family: "Roboto", sans-serif;
   background-image: url(/assets/background/dbd-fog-background.jpg);
@@ -48,35 +48,26 @@ body {
 }
 
 header {
-  width: 100vw;
+  width: 100%;
   background-color: rgb(88, 82, 82);
-  padding: 25px;
+  padding: 1.5625rem;
 }
 
 footer {
-  display: flex;
-  padding: 2px 500px;
-  background: #010101;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 1;
+  padding: 0.125rem 2.5rem;
+  position: relative;
+  width: 10%;
 }
 
 footer .footer-text,
 footer .footer-links {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 14px;
-}
-
-footer .footer-text {
-  margin: 10px auto 10px 0;
+  font-size: 0.775rem;
 }
 
 footer .footer-links {
-  margin: 10px 0 10px auto;
+  margin: 0.625rem 0 0.625rem auto;
 }
 
 #app {
@@ -85,19 +76,5 @@ footer .footer-links {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #202427;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  background-color: #0d0d0e;
-  border-bottom-color: #bb3030;
 }
 </style>

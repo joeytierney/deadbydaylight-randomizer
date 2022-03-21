@@ -20,8 +20,7 @@
         src="/assets/icons/survivor-icon.png"
         alt="Click here for a random survivor!"
         @click="rndSurv"
-        width="120"
-        height="120"
+        class="randomSurvButton"
       />
     </div>
   </div>
@@ -54,11 +53,11 @@ export default {
 
 <style scoped>
 h3 {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: bold;
   font-style: normal;
-  line-height: 14px;
-  margin: 0 0 10px 0;
+  line-height: 0.875rem;
+  margin: 0 0 0.625rem 0;
   text-align: center;
   text-transform: uppercase;
   color: #aa0101;
@@ -66,6 +65,12 @@ h3 {
 
 img {
   color: white;
+}
+
+footer {
+  padding: 0.125rem 2.5rem;
+  float: left;
+  margin-top: 9rem;
 }
 
 .survivors {
@@ -77,6 +82,11 @@ img {
 }
 
 .survButton:active {
-  transform: translateY(4px);
+  transform: translateY(0.25rem);
+}
+
+.randomSurvButton {
+  width: 7.5rem;
+  height: 7.5rem;
 }
 </style>

@@ -23,7 +23,7 @@ export default {
 
 <style>
 nav {
-  width: 100vw;
+  width: 100%;
   background-color: #0d0d0e;
   display: flex;
   align-items: center;
@@ -32,10 +32,10 @@ nav {
 
 nav .menu-item {
   color: #fff;
-  padding: 25px 40px;
+  padding: 1.5625rem 2.5rem;
   position: relative;
   text-align: center;
-  border-bottom: 5px solid transparent;
+  border-bottom: 0.3125rem solid transparent;
   display: flex;
   transition: 0.4s;
 }

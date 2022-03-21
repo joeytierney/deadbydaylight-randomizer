@@ -2,10 +2,10 @@
   <img
     src="/assets/icons/Logo_dbd.png"
     alt="Dead by Daylight logo"
-    style="margin-top: 1.2rem"
     class="homeLogo"
   />
   <div class="home">
+    <h1>Randomizer</h1>
     <br />
     <h2>About</h2>
     <h3>This website</h3>
@@ -110,7 +110,7 @@ export default {
 </script>
 
 <style>
-@media only screen and (max-width: 600px) {
+@media (min-width: 320px) and (max-width: 999px) {
   .homeLogo {
     max-height: 100%;
     max-width: 100%;
@@ -124,34 +124,38 @@ export default {
   color: #fff;
 }
 
+.homeLogo {
+  margin-top: 1.2rem;
+}
+
 h1 {
-  font-size: 50px;
+  font-size: 3.125rem;
   font-weight: bold;
   font-style: normal;
-  line-height: 50px;
-  margin: 0 0 15px 0;
+  line-height: 3.125rem;
+  margin: 0 0 0.9375rem 0;
   text-align: center;
   text-transform: uppercase;
   color: #fff;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
   font-style: normal;
-  line-height: 24px;
-  margin: 0 0 10px 0;
+  line-height: 1.5rem;
+  margin: 0 0 0.625rem 0;
   text-align: center;
   text-transform: uppercase;
   color: #aa0101;
 }
 
 h3 {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: bold;
   font-style: normal;
-  line-height: 14px;
-  margin: 0 0 10px 0;
+  line-height: 0.875rem;
+  margin: 0 0 0.625rem 0;
   text-align: center;
   text-transform: uppercase;
   color: #cccccc;
@@ -165,7 +169,7 @@ p {
 
 a.link {
   color: #fff;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+  border-bottom: 0.125rem solid rgba(255, 255, 255, 0.25);
   text-decoration: none;
   cursor: pointer;
   transition: color 0.1s ease-in-out;
