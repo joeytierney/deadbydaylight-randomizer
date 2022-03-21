@@ -3,11 +3,11 @@
     <h1>Choose Your Survivor</h1>
     <br />
     <div class="survImage" v-if="visible">
-      <img :src="selectedSurvivor.image" alt="Click the survivor icon below!" />
+      <img :src="selectedSurvivor.image" alt="Random Survivor Portrait" />
     </div>
     <img
       src="/assets/icons/character-empty.png"
-      alt="Random Survivor Placeholder"
+      alt="Random Survivor Placeholder Portrait"
       class="questionMark"
       id="questionPlaceholder"
     />
