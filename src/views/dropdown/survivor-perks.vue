@@ -97,6 +97,8 @@
     id="emptyPerk"
     width="200"
   />
+  <br />
+  <br />
   <p id="helperText">Click the Perk icon below!</p>
   <br />
   <div class="perkButton">
