@@ -3,11 +3,11 @@
     <h1>Choose Your Killer</h1>
     <br />
     <div class="killerImage" v-if="visible">
-      <img :src="selectedKiller.image" alt="Click the killer icon below!" />
+      <img :src="selectedKiller.image" alt="Random Killer Portrait" />
     </div>
     <img
       src="/assets/icons/character-empty.png"
-      alt="Random Killer Placeholder"
+      alt="Random Killer Placeholder Portrait"
       class="questionMark"
       id="questionPlaceholder"
     />
