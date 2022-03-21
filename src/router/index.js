@@ -5,6 +5,7 @@ import Killers from "../views/Killers.vue";
 import Perks from "../views/Perks.vue";
 import SurvivorPerks from "../views/dropdown/survivor-perks.vue";
 import KillerPerks from "../views/dropdown/killer-perks.vue";
+import Error404 from "../views/404.vue";
 
 const routes = [
   {
@@ -36,6 +37,11 @@ const routes = [
     path: "/perks/killer-perks",
     name: "KillerPerks",
     component: KillerPerks,
+  },
+  {
+    path: "/:catchAll(.*)",
+    name: "Error404",
+    component: Error404,
   },
 ];
 
