@@ -2,33 +2,65 @@
   <h1 style="margin-top: 1.2rem; font-size: 50px">Survivor Perks</h1>
   <div class="perks" v-if="visible">
     <div class="perk1">
-      <img :src="selectedSurvPerk.image" alt="" width="200" />
+      <img
+        :src="selectedSurvPerk.image"
+        :alt="selectedSurvPerk.name"
+        width="200"
+      />
       <h1 class="perkName">{{ selectedSurvPerk.name }}</h1>
       <h3 class="perkTeach">{{ selectedSurvPerk.teachable }}</h3>
-      <img :src="selectedSurvPerk.survivor" alt="" width="200" />
+      <img
+        :src="selectedSurvPerk.survivor"
+        :alt="selectedSurvPerk.teachable"
+        width="200"
+      />
     </div>
     <div class="perk2">
-      <img :src="selectedSurvPerk2.image" alt="" width="200" />
+      <img
+        :src="selectedSurvPerk2.image"
+        :alt="selectedSurvPerk2.name"
+        width="200"
+      />
       <h1 class="perkName">{{ selectedSurvPerk2.name }}</h1>
       <h3 class="perkTeach">{{ selectedSurvPerk2.teachable }}</h3>
-      <img :src="selectedSurvPerk2.survivor" alt="" width="200" />
+      <img
+        :src="selectedSurvPerk2.survivor"
+        :alt="selectedSurvPerk2.teachable"
+        width="200"
+      />
     </div>
     <div class="perk3">
-      <img :src="selectedSurvPerk3.image" alt="" width="200" />
+      <img
+        :src="selectedSurvPerk3.image"
+        :alt="selectedSurvPerk3.name"
+        width="200"
+      />
       <h1 class="perkName">{{ selectedSurvPerk3.name }}</h1>
       <h3 class="perkTeach">{{ selectedSurvPerk3.teachable }}</h3>
-      <img :src="selectedSurvPerk3.survivor" alt="" width="200" />
+      <img
+        :src="selectedSurvPerk3.survivor"
+        :alt="selectedSurvPerk3.teachable"
+        width="200"
+      />
     </div>
     <div class="perk4">
-      <img :src="selectedSurvPerk4.image" alt="" width="200" />
+      <img
+        :src="selectedSurvPerk4.image"
+        :alt="selectedSurvPerk4.name"
+        width="200"
+      />
       <h1 class="perkName">{{ selectedSurvPerk4.name }}</h1>
       <h3 class="perkTeach">{{ selectedSurvPerk4.teachable }}</h3>
-      <img :src="selectedSurvPerk4.survivor" alt="" width="200" />
+      <img
+        :src="selectedSurvPerk4.survivor"
+        :alt="selectedSurvPerk4.teachable"
+        width="200"
+      />
     </div>
   </div>
   <img
     src="/assets/icons/perk-empty-icon.png"
-    alt="Random Survivor Perk Placeholder"
+    alt="Random Survivor Perk Placeholder Icon"
     class="emptyPerk"
     id="emptyPerk"
     width="200"
@@ -104,6 +136,10 @@ h1 {
 
 h3 {
   color: #ff8800;
+}
+
+img {
+  color: white;
 }
 
 .questionMark {
