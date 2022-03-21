@@ -3,7 +3,7 @@
     <h1>Choose Your Survivor</h1>
     <br />
     <div class="survImage" v-if="visible">
-      <img :src="selectedSurvivor.image" alt="Random Survivor Portrait" />
+      <img :src="selectedSurvivor.image" :alt="selectedSurvivor.name" />
     </div>
     <img
       src="/assets/icons/character-empty.png"
@@ -62,6 +62,10 @@ h3 {
   text-align: center;
   text-transform: uppercase;
   color: #aa0101;
+}
+
+img {
+  color: white;
 }
 
 .survivors {

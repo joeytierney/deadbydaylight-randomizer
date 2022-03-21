@@ -3,7 +3,7 @@
     <h1>Choose Your Killer</h1>
     <br />
     <div class="killerImage" v-if="visible">
-      <img :src="selectedKiller.image" alt="Random Killer Portrait" />
+      <img :src="selectedKiller.image" :alt="selectedKiller.name" />
     </div>
     <img
       src="/assets/icons/character-empty.png"
@@ -73,6 +73,10 @@ h3 {
   text-align: center;
   text-transform: uppercase;
   color: #aa0101;
+}
+
+img {
+  color: white;
 }
 
 .killers {
