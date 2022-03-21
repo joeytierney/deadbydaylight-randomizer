@@ -21,8 +21,8 @@
         src="/assets/icons/killer-icon.png"
         alt="Click here for a random Killer!"
         @click="rndKiller"
-        width="90"
-        height="90"
+        width="120"
+        height="120"
       />
     </div>
   </div>

@@ -20,8 +20,8 @@
         src="/assets/icons/survivor-icon.png"
         alt="Click here for a random survivor!"
         @click="rndSurv"
-        width="90"
-        height="90"
+        width="120"
+        height="120"
       />
     </div>
   </div>
