@@ -2,7 +2,7 @@
   <h1>404</h1>
   <h2>Page Not Found</h2>
   <p class="entityText">
-    The link you tried to access has been sacrificed to the Entity.
+    The page you tried to access has been sacrificed to the Entity.
   </p>
   <div class="returnHome">
     <a
