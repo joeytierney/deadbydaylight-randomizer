@@ -229,6 +229,10 @@ p {
 
 .perks {
   margin-top: 1.2rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .perkButton,
@@ -241,27 +245,27 @@ p {
   transform: translateY(4px);
 }
 
+.perkName {
+  font-size: 1rem;
+}
+
 .perk1 {
-  float: left;
   width: 20%;
-  height: 280px;
+  height: 350px;
 }
 
 .perk2 {
-  float: left;
   width: 20%;
-  height: 280px;
+  height: 350px;
 }
 
 .perk3 {
-  float: right;
   width: 20%;
-  height: 280px;
+  height: 350px;
 }
 
 .perk4 {
-  float: right;
   width: 20%;
-  height: 280px;
+  height: 350px;
 }
 </style>

@@ -3,6 +3,7 @@
     src="/assets/icons/Logo_dbd.png"
     alt="Dead by Daylight logo"
     style="margin-top: 1.2rem"
+    class="homeLogo"
   />
   <div class="home">
     <br />
@@ -109,6 +110,13 @@ export default {
 </script>
 
 <style>
+@media only screen and (max-width: 600px) {
+  .homeLogo {
+    max-height: 100%;
+    max-width: 100%;
+  }
+}
+
 .home {
   margin: 0;
   padding: 0;
