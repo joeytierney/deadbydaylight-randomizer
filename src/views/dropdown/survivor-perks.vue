@@ -151,8 +151,8 @@ export default {
       }
     },
     rndPerk() {
-      this.checkForRepeat();
       this.randomArray();
+      this.checkForRepeat();
       document.getElementById("emptyPerk").remove();
       document.getElementById("helperText").remove();
       this.visible = true;

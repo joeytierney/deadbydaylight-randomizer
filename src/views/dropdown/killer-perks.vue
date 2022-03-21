@@ -14,6 +14,14 @@
         :alt="selectedKillerPerk.teachable"
         width="200"
       />
+      <p class="rerollPerk">
+        <img
+          src="/assets/icons/reroll.png"
+          alt="Reroll Icon"
+          width="123"
+          @click="rerollPerk1()"
+        /><br />Reroll Perk
+      </p>
     </div>
     <div class="perk2">
       <img
@@ -28,6 +36,14 @@
         :alt="selectedKillerPerk2.teachable"
         width="200"
       />
+      <p class="rerollPerk">
+        <img
+          src="/assets/icons/reroll.png"
+          alt="Reroll Icon"
+          width="123"
+          @click="rerollPerk2()"
+        /><br />Reroll Perk
+      </p>
     </div>
     <div class="perk3">
       <img
@@ -42,6 +58,14 @@
         :alt="selectedKillerPerk3.teachable"
         width="200"
       />
+      <p class="rerollPerk">
+        <img
+          src="/assets/icons/reroll.png"
+          alt="Reroll Icon"
+          width="123"
+          @click="rerollPerk3()"
+        /><br />Reroll Perk
+      </p>
     </div>
     <div class="perk4">
       <img
@@ -56,6 +80,14 @@
         :alt="selectedKillerPerk4.teachable"
         width="200"
       />
+      <p class="rerollPerk">
+        <img
+          src="/assets/icons/reroll.png"
+          alt="Reroll Icon"
+          width="123"
+          @click="rerollPerk4()"
+        /><br />Reroll Perk
+      </p>
     </div>
   </div>
   <img
@@ -125,6 +157,50 @@ export default {
       document.getElementById("helperText").remove();
       this.visible = true;
     },
+    rerollPerk1() {
+      const idx = Math.floor(Math.random() * this.killerPerks.length);
+      this.selectedKillerPerk = this.killerPerks[idx];
+      if (this.selectedKillerPerk === this.selectedKillerPerk2) {
+        this.rerollPerk1();
+      } else if (this.selectedKillerPerk === this.selectedKillerPerk3) {
+        this.rerollPerk1();
+      } else if (this.selectedKillerPerk === this.selectedKillerPerk4) {
+        this.rerollPerk1();
+      }
+    },
+    rerollPerk2() {
+      const idx2 = Math.floor(Math.random() * this.killerPerks.length);
+      this.selectedKillerPerk2 = this.killerPerks[idx2];
+      if (this.selectedKillerPerk2 === this.selectedKillerPerk) {
+        this.rerollPerk2();
+      } else if (this.selectedKillerPerk2 === this.selectedKillerPerk3) {
+        this.rerollPerk2();
+      } else if (this.selectedKillerPerk2 === this.selectedKillerPerk4) {
+        this.rerollPerk2();
+      }
+    },
+    rerollPerk3() {
+      const idx3 = Math.floor(Math.random() * this.killerPerks.length);
+      this.selectedKillerPerk3 = this.killerPerks[idx3];
+      if (this.selectedKillerPerk3 === this.selectedKillerPerk) {
+        this.rerollPerk3();
+      } else if (this.selectedKillerPerk3 === this.selectedKillerPerk2) {
+        this.rerollPerk3();
+      } else if (this.selectedKillerPerk3 === this.selectedKillerPerk4) {
+        this.rerollPerk3();
+      }
+    },
+    rerollPerk4() {
+      const idx4 = Math.floor(Math.random() * this.killerPerks.length);
+      this.selectedKillerPerk4 = this.killerPerks[idx4];
+      if (this.selectedKillerPerk4 === this.selectedKillerPerk) {
+        this.rerollPerk4();
+      } else if (this.selectedKillerPerk4 === this.selectedKillerPerk2) {
+        this.rerollPerk4();
+      } else if (this.selectedKillerPerk4 === this.selectedKillerPerk3) {
+        this.rerollPerk4();
+      }
+    },
   },
 };
 </script>
@@ -142,6 +218,10 @@ img {
   color: white;
 }
 
+p {
+  line-height: 1px;
+}
+
 .questionMark {
   height: 90px;
   width: 90px;
@@ -151,11 +231,13 @@ img {
   margin-top: 1.2rem;
 }
 
-.perkButton {
+.perkButton,
+.rerollPerk {
   cursor: pointer;
 }
 
-.perkButton:active {
+.perkButton:active,
+.rerollPerk:active {
   transform: translateY(4px);
 }
 
