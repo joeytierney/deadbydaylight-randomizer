@@ -39,7 +39,6 @@ export default {
 
 body {
   margin: 0;
-  margin-bottom: 6.25rem;
   padding: 0;
   font-family: "Roboto", sans-serif;
   background-image: url(/assets/background/dbd-fog-background.jpg);
@@ -55,8 +54,9 @@ header {
 
 footer {
   padding: 0.125rem 2.5rem;
-  position: relative;
-  width: 10%;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 
 footer .footer-text,
