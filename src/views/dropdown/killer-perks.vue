@@ -1,5 +1,5 @@
 <template>
-  <h1>Killer Perks</h1>
+  <h1 class="header">Killer Perks</h1>
   <div class="perks" v-if="visible">
     <div class="perk1">
       <img
@@ -206,6 +206,43 @@ export default {
 </script>
 
 <style scoped>
+@media (min-width: 320px) and (max-width: 999px) {
+  .header {
+    font-size: 1.5rem;
+  }
+
+  .emptyPerk {
+    width: 7.5rem !important;
+  }
+
+  .randomPerkButton {
+    width: 5.375rem !important;
+    height: 5.375rem !important;
+  }
+
+  .killerPerks,
+  .rerollIcon {
+    width: 4.5rem !important;
+  }
+
+  .killerPerkOwner {
+    width: 4.5rem !important;
+  }
+
+  .rerollPerk {
+    font-size: 0.73rem !important;
+  }
+
+  .perkName {
+    font-size: 0.6rem !important;
+    height: 20% !important;
+  }
+
+  .perkTeach {
+    display: none;
+  }
+}
+
 h1 {
   margin-top: 1.2rem;
   font-size: 3.125rem;
