@@ -2,20 +2,12 @@
   <div id="nav">
     <nav class="container navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="/"
-        ><img src="/assets/icons/dbd-logo.png" width="40" height="40" alt=""
+        ><img
+          src="/assets/icons/dbd-logo.png"
+          width="40"
+          height="40"
+          alt="Dead by Daylight logo"
       /></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <div class="navbar-nav mr-auto">
           <router-link to="/" class="nav-item nav-link">Home</router-link>
@@ -50,6 +42,77 @@
           </li>
         </div>
       </div>
+      <a
+        class="navbar-brand"
+        href="https://www.twitter.com/joeytiernee"
+        target="_blank"
+        ><img
+          src="/assets/icons/social/twitter.png"
+          width="30"
+          height="30"
+          alt="Twitter"
+      /></a>
+      <a
+        class="navbar-brand"
+        href="https://www.facebook.com/joey.tierney1"
+        target="_blank"
+        ><img
+          src="/assets/icons/social/facebook.png"
+          width="30"
+          height="30"
+          alt="Facebook"
+      /></a>
+      <a
+        class="navbar-brand"
+        href="https://www.instagram.com/y2jt"
+        target="_blank"
+        ><img
+          src="/assets/icons/social/instagram.png"
+          width="30"
+          height="30"
+          alt="Instagram"
+      /></a>
+      <a
+        class="navbar-brand"
+        href="https://www.youtube.com/user/YTwoJT"
+        target="_blank"
+        ><img
+          src="/assets/icons/social/youtube.png"
+          width="40"
+          height="30"
+          alt="YouTube"
+      /></a>
+      <a
+        class="navbar-brand"
+        href="https://www.github.com/joeytierney"
+        target="_blank"
+        ><img
+          src="/assets/icons/social/github.png"
+          width="30"
+          height="30"
+          alt="GitHub"
+      /></a>
+      <a
+        class="navbar-brand"
+        href="https://ie.linkedin.com/in/joey-tierney"
+        target="_blank"
+        ><img
+          src="/assets/icons/social/linkedin.png"
+          width="30"
+          height="30"
+          alt="LinkedIn"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
     </nav>
   </div>
 </template>
