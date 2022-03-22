@@ -1,9 +1,13 @@
 <template>
   <div class="killers">
-    <h1>Choose Your Killer</h1>
+    <h1 class="header">Choose Your Killer</h1>
     <br />
     <div class="killerImage" v-if="visible">
-      <img :src="selectedKiller.image" :alt="selectedKiller.name" />
+      <img
+        :src="selectedKiller.image"
+        :alt="selectedKiller.name"
+        class="randomSelectedKiller"
+      />
     </div>
     <img
       src="/assets/icons/character-empty.png"
@@ -12,9 +16,9 @@
       id="questionPlaceholder"
     />
     <p id="helperText">Click the Killer icon below!</p>
-    <h1>{{ selectedKiller.name }}</h1>
-    <h2>{{ selectedKiller.realName }}</h2>
-    <h3>{{ selectedKiller.dlc }}</h3>
+    <h1 class="killerName">{{ selectedKiller.name }}</h1>
+    <h2 class="killerRealName">{{ selectedKiller.realName }}</h2>
+    <h3 class="killerDLC">{{ selectedKiller.dlc }}</h3>
     <br />
     <div class="killerButton">
       <img
@@ -53,6 +57,27 @@ export default {
 </script>
 
 <style scoped>
+@media (min-width: 320px) and (max-width: 999px) {
+  .header {
+    font-size: 1.5rem;
+  }
+
+  .questionMark,
+  .randomSelectedKiller {
+    height: 15.2rem;
+  }
+
+  .killerName,
+  .killerRealName {
+    font-size: 1.2rem;
+  }
+
+  .randomKillerButton {
+    width: 5.5rem !important;
+    height: 5.5rem !important;
+  }
+}
+
 h2 {
   font-size: 1.5rem;
   font-weight: bold;
