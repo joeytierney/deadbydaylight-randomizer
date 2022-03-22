@@ -1,53 +1,81 @@
 <template>
-  <nav id="vue">
-    <div class="menu-item"><router-link to="/">Home</router-link></div>
-    <div class="menu-item">
-      <router-link to="/survivors">Survivors</router-link>
-    </div>
-    <div class="menu-item">
-      <router-link to="/killers">Killers</router-link>
-    </div>
-    <Perks title="Perks" />
-  </nav>
+  <div id="nav">
+    <nav class="container navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="/"
+        ><img src="/assets/icons/dbd-logo.png" width="40" height="40" alt=""
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto">
+          <router-link to="/" class="nav-item nav-link">Home</router-link>
+          <router-link to="/survivors" class="nav-item nav-link"
+            >Survivors</router-link
+          >
+          <router-link to="/killers" class="nav-link">Killers</router-link>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Perks
+            </a>
+            <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+              <router-link
+                to="/perks/survivor-perks"
+                class="dropdown-item bg-dark"
+                >Survivor Perks</router-link
+              >
+              <router-link
+                to="/perks/killer-perks"
+                class="dropdown-item bg-dark"
+                >Killer Perks</router-link
+              >
+            </div>
+          </li>
+        </div>
+      </div>
+    </nav>
+  </div>
 </template>
 
-<script>
-import Perks from "../views/Perks.vue";
-export default {
-  name: "navbar",
-  components: {
-    Perks,
-  },
-};
-</script>
-
 <style>
-nav {
-  width: 100%;
-  background-color: #0d0d0e;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-nav .menu-item {
-  color: #fff;
-  padding: 1.5625rem 2.5rem;
-  position: relative;
+#nav {
   text-align: center;
-  border-bottom: 0.3125rem solid transparent;
-  display: flex;
-  transition: 0.4s;
+  border-radius: 5.2rem;
 }
 
-nav .menu-item.active,
-nav .menu-item:hover {
-  background-color: #0d0d0e;
-  border-bottom-color: #bb3030;
+#nav a {
+  font-weight: bold;
+  color: #cccccc;
 }
 
-nav .menu-item a {
-  color: inherit;
+#nav a.router-link-exact-active {
+  color: #cccccc;
+  border-bottom: 0.125rem solid rgba(170, 1, 1, 1);
   text-decoration: none;
+  cursor: pointer;
+  transition: color 0.1s ease-in-out;
+}
+
+#nav a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.1s ease-in-out;
 }
 </style>
