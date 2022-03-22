@@ -120,6 +120,13 @@ export default {
     max-width: 100%;
     font-size: 2.125rem;
   }
+
+  footer .footer-text,
+  footer .footer-links {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.6rem;
+  }
 }
 
 .home {

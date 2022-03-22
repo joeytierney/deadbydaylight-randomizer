@@ -57,7 +57,6 @@
 <style>
 #nav {
   text-align: center;
-  border-radius: 5.2rem;
 }
 
 #nav a {
