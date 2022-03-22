@@ -1,6 +1,6 @@
 <template>
-  <h1>404</h1>
-  <h2>Page Not Found</h2>
+  <h1 class="header">404</h1>
+  <h2 class="header2">Page Not Found</h2>
   <p class="entityText">
     The page you tried to access has been sacrificed to the Entity.
   </p>
@@ -17,6 +17,21 @@
 </template>
 
 <style scoped>
+@media (min-width: 320px) and (max-width: 999px) {
+  .header {
+    font-size: 11.5rem;
+  }
+
+  .header2 {
+    font-size: 1.75rem;
+  }
+
+  .entityText {
+    font-size: 1.2rem !important;
+    margin-top: 2.25rem !important;
+  }
+}
+
 h1 {
   font-size: 13.125rem;
   line-height: 11.875rem;
