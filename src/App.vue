@@ -54,7 +54,7 @@ header {
 
 footer {
   padding: 0.125rem 2.5rem;
-  position: fixed;
+  position: relative;
   width: 100%;
   bottom: 0;
 }

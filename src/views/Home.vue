@@ -5,7 +5,7 @@
     class="homeLogo"
   />
   <div class="home">
-    <h1>Randomizer</h1>
+    <h1 class="header">Randomizer</h1>
     <br />
     <h2>About</h2>
     <h3>This website</h3>
@@ -114,6 +114,11 @@ export default {
   .homeLogo {
     max-height: 100%;
     max-width: 100%;
+  }
+
+  .header {
+    max-width: 100%;
+    font-size: 2.125rem;
   }
 }
 

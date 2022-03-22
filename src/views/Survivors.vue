@@ -1,9 +1,13 @@
 <template>
   <div class="survivors">
-    <h1>Choose Your Survivor</h1>
+    <h1 class="header">Choose Your Survivor</h1>
     <br />
     <div class="survImage" v-if="visible">
-      <img :src="selectedSurvivor.image" :alt="selectedSurvivor.name" />
+      <img
+        :src="selectedSurvivor.image"
+        :alt="selectedSurvivor.name"
+        class="randomSelectedSurv"
+      />
     </div>
     <img
       src="/assets/icons/character-empty.png"
@@ -52,6 +56,26 @@ export default {
 </script>
 
 <style scoped>
+@media (min-width: 320px) and (max-width: 999px) {
+  .header {
+    font-size: 1.5rem;
+  }
+
+  .questionMark,
+  .randomSelectedSurv {
+    height: 15.2rem;
+  }
+
+  .survName {
+    font-size: 1.2rem;
+  }
+
+  .randomSurvButton {
+    width: 5.5rem !important;
+    height: 5.5rem !important;
+  }
+}
+
 h3 {
   font-size: 0.875rem;
   font-weight: bold;
