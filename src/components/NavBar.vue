@@ -11,6 +11,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <div class="navbar-nav mr-auto">
           <router-link to="/" class="nav-item nav-link">Home</router-link>
+          <router-link to="/about" class="nav-item nav-link">About</router-link>
           <router-link to="/survivors" class="nav-item nav-link"
             >Survivors</router-link
           >
@@ -51,16 +52,7 @@
           width="30"
           height="30"
           alt="Twitter"
-      /></a>
-      <a
-        class="navbar-brand"
-        href="https://www.facebook.com/joey.tierney1"
-        target="_blank"
-        ><img
-          src="/assets/icons/social/facebook.png"
-          width="30"
-          height="30"
-          alt="Facebook"
+          title="Follow me on Twitter!"
       /></a>
       <a
         class="navbar-brand"
@@ -71,6 +63,7 @@
           width="30"
           height="30"
           alt="Instagram"
+          title="Follow me on Instagram!"
       /></a>
       <a
         class="navbar-brand"
@@ -81,6 +74,7 @@
           width="40"
           height="30"
           alt="YouTube"
+          title="Subscribe to my YouTube channel!"
       /></a>
       <a
         class="navbar-brand"
@@ -91,6 +85,7 @@
           width="30"
           height="30"
           alt="GitHub"
+          title="Check out my GitHub!"
       /></a>
       <a
         class="navbar-brand"
@@ -101,6 +96,7 @@
           width="30"
           height="30"
           alt="LinkedIn"
+          title="Check me out on LinkedIn!"
       /></a>
       <button
         class="navbar-toggler"

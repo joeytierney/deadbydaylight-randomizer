@@ -1,4 +1,5 @@
 <template>
+  <br />
   <img
     src="/assets/icons/Logo_dbd.png"
     alt="Dead by Daylight logo"
@@ -7,97 +8,36 @@
   <div class="home">
     <h1 class="header">Randomizer</h1>
     <br />
-    <h2>About</h2>
-    <h3>This website</h3>
-    <p>
-      <span>
-        Tired of playing as the same character? Do you already have all perks
-        unlocked? Do you need a new challenge? Want to try some perks you never
-        used before?
-      </span>
-      <span>
-        <b>Then is this the website you searched for.</b>
-      </span>
-    </p>
     <br />
-    <p>
-      <span>
-        This site randomly selects your Killer, Survivor, and four Killer or
-        Survivor Perks for you to play with in a game of Dead by Daylight.
-      </span>
-    </p>
-    <br />
-    <h3>The game</h3>
-    <p>
-      <span>
-        <a
-          class="link"
-          href="https://deadbydaylight.com"
-          target="_blank"
-          title="https://deadbydaylight.com"
-          rel="noreferrer"
-        >
-          Dead by Daylight
-        </a>
-        is an asymmetrical multiplayer (4vs1) horror game where one player takes
-        on the role of the savage Killer, and the other four players play as
-        Survivors, trying to escape the Killer and avoid being caught and
-        killed.
-      </span>
-    </p>
-    <br />
-    <div>
-      <h2>Disclaimer</h2>
-      <p>
-        <span>
-          <b
-            >This site is not associated with, endorsed by, or in any other form
-            connected with any company.</b
-          >
-        </span>
-      </p>
-      <br />
-      <p>
-        <span>
-          DEAD BY DAYLIGHT® is a registered trademark of Behaviour Interactive
-          Inc. in Canada, the United States of America and/or other countries.
-        </span>
-      </p>
-      <p>
-        <span>
-          Use at your own risk. This site runs in your browser, no data is saved
-          on the server.
-        </span>
-      </p>
-      <br />
-      <h3>Image and music credit</h3>
-      <p>
-        <span>
-          The character portraits, perk icons and menu music are game related
-          content and therefore property of
-          <a
-            class="link"
-            href="https://www.bhvr.com/"
-            target="_blank"
-            title="https://www.bhvr.com/"
-            rel="noreferrer"
-            >Behaviour
-          </a>
-          and were taken from the official
-          <a
-            class="link"
-            href="https://deadbydaylight.gamepedia.com/Dead_by_Daylight_Wiki"
-            target="_blank"
-            title="https://deadbydaylight.gamepedia.com/Dead_by_Daylight_Wiki"
-            rel="noreferrer"
-            >Dead by Daylight wiki </a
-          >.
-        </span>
-      </p>
-      <br />
-      <p>
-        <span>All other images were created by the author.</span>
-      </p>
+    <img
+      src="/assets/character-backgrounds/meg.png"
+      alt="Meg Thomas background"
+      class="survBg"
+    />
+    <div class="survivorsPerk">
+      <h1 class="survHeader">Survivors</h1>
+      <h2 class="subSurvHeader">Random Survivor Perks</h2>
+      <router-link to="/perks/survivor-perks"
+        ><img
+          src="/assets/icons/survivor-icon.png"
+          alt="Random Survivor Perk button"
+          class="toRndPerkButton"
+      /></router-link>
+    </div>
+    <img
+      src="/assets/character-backgrounds/trapper.png"
+      alt="The Trapper background"
+      class="killerBg"
+    />
+    <div class="killersPerk">
+      <h1 class="killerHeader">Killers</h1>
+      <h2 class="subKillerHeader">Random Killer Perks</h2>
+      <router-link to="/perks/killer-perks"
+        ><img
+          src="/assets/icons/killer-icon.png"
+          alt="Random Killer Perk button"
+          class="toRndPerkButton"
+      /></router-link>
     </div>
   </div>
 </template>
@@ -121,6 +61,31 @@ export default {
     font-size: 2.125rem;
   }
 
+  .survHeader,
+  .killerHeader {
+    font-size: 1.5rem;
+  }
+
+  .subSurvHeader,
+  .subKillerHeader {
+    font-size: 1rem;
+  }
+
+  .survivors {
+    float: left;
+    width: 50%;
+  }
+
+  .killers {
+    float: right;
+    width: 50%;
+  }
+
+  .survBg,
+  .killerBg {
+    display: none;
+  }
+
   footer .footer-text,
   footer .footer-links {
     text-transform: uppercase;
@@ -140,54 +105,35 @@ export default {
   margin-top: 1.2rem;
 }
 
-h1 {
-  font-size: 3.125rem;
-  font-weight: bold;
-  font-style: normal;
-  line-height: 3.125rem;
-  margin: 0 0 0.9375rem 0;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff;
+.survivorsPerk {
+  float: left;
+  width: 50%;
 }
 
-h2 {
-  font-size: 1.5rem;
-  font-weight: bold;
-  font-style: normal;
-  line-height: 1.5rem;
-  margin: 0 0 0.625rem 0;
-  text-align: center;
-  text-transform: uppercase;
-  color: #aa0101;
+.survBg {
+  position: absolute;
+  left: 5%;
+  opacity: 50%;
+  height: 36rem;
 }
 
-h3 {
-  font-size: 0.875rem;
-  font-weight: bold;
-  font-style: normal;
-  line-height: 0.875rem;
-  margin: 0 0 0.625rem 0;
-  text-align: center;
-  text-transform: uppercase;
-  color: #cccccc;
+.killersPerk {
+  float: right;
+  width: 50%;
 }
 
-p {
-  margin: unset;
-  display: block;
-  color: white;
+.killerBg {
+  position: absolute;
+  right: 1%;
+  opacity: 50%;
+  height: 36rem;
 }
 
-a.link {
-  color: #fff;
-  border-bottom: 0.125rem solid rgba(255, 255, 255, 0.25);
-  text-decoration: none;
+.toRndPerkButton {
   cursor: pointer;
-  transition: color 0.1s ease-in-out;
 }
 
-a.link:hover {
-  color: #aaa;
+.toRndPerkButton:active {
+  transform: translateY(0.25rem);
 }
 </style>
