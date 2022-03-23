@@ -7,6 +7,79 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title>Dead by Daylight Randomizer</title>
+    <style>
+      .cookies-notification {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        transform: translateY(100%);
+        transition: transform 300ms ease-in;
+        background: #3f3e3e;
+        padding: 0 5%;
+        z-index: 999999;
+      }
+
+      .cookies-notification--visible {
+        transform: translateY(0);
+      }
+
+      .cookies-notification-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 20px;
+      }
+
+      .cookies-notification-text {
+        text-align: center;
+        font-size: 16px;
+      }
+
+      .cookies-notification-text a {
+        color: #00ace6;
+      }
+
+      .cookies-notification-text p {
+        margin: 1em 0;
+      }
+
+      .cookies-notification-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: none;
+        background: #00ace8;
+        color: #fff;
+        border-radius: 4px;
+        font-size: 16px;
+        border: none;
+        padding: 15px 50px;
+        outline:0;
+      }
+
+      @media only screen and (min-width: 600px) {
+        .cookies-notification-content {
+          flex-direction: row;
+          max-width: 1170px;
+          padding-bottom: 0;
+        }
+
+        .cookies-notification-text {
+          font-size: 14px;
+          text-align: start;
+          margin-right: 47px;
+        }
+
+        .cookies-notification-button {
+          font-size: 12px;
+          padding: 12px 24px;
+        }
+      }
+    </style>
   </head>
   <body>
     <noscript>
@@ -17,5 +90,40 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(function () {
+        var cookiesAgreed = localStorage.getItem('cookiesAgreed');
+      
+        if (cookiesAgreed) {
+          return;
+        }
+      
+        var wrapper = $('<div class="cookies-notification"></div>');
+        var notification = $('<div class="cookies-notification-content"></div>');
+        var text = $('<div class="cookies-notification-text"><p>This website uses cookies to ensure the best browsing experience. You may change your cookie preferences in your browser or device settings. <a href=\"http://www.aboutcookies.org/\" target=\"_blank\">Learn More<\/a> <a href=\"http://www.aboutcookies.org/how-to-delete-cookies/\" target=\"_blank\">How To Delete Cookies<\/a><\/p></div>');
+        var button = $('<button class="cookies-notification-button">Accept</button>');
+      
+        button.click(handleAcceptClick);
+        notification
+          .append(text)
+          .append(button);
+        wrapper.append(notification);
+      
+        $('body').append(wrapper);
+        setTimeout(function() {
+          wrapper.addClass('cookies-notification--visible');
+        }, 1000);
+      
+        function handleAcceptClick() {
+          localStorage.setItem('cookiesAgreed', 'true');
+          wrapper.removeClass('cookies-notification--visible');
+          wrapper.on('transitionend', handleTransitionEnd);
+        }
+      
+        function handleTransitionEnd() {
+          wrapper.remove();
+        }
+      });
+    </script>
   </body>
 </html>
