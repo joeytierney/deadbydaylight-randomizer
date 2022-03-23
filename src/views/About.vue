@@ -93,14 +93,58 @@
         <span>All other images were created by the author.</span>
       </p>
     </div>
+    <br />
+    <div class="site-credit">
+      <p class="footer-text">
+        Developed by
+        <a
+          class="link"
+          href="https://twitter.com/joeytiernee"
+          target="_blank"
+          title="https://twitter.com/joeytiernee"
+          rel="noreferrer"
+          >joey tierney</a
+        >
+      </p>
+      <div class="privacy">
+        <router-link to="/privacy" class="link">Privacy Policy</router-link>
+      </div>
+    </div>
   </div>
 </template>
 
 <style scoped>
+@media (min-width: 320px) and (max-width: 999px) {
+  .site-credit .footer-text,
+  .site-credit .privacy {
+    display: block !important;
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+    font-size: 0.775rem !important;
+  }
+
+  .site-credit .privacy {
+    margin: 0.625rem 0 0.625rem auto !important;
+  }
+}
+
+.site-credit .footer-text,
+.site-credit .privacy {
+  display: none;
+}
+
 .about {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
   color: #fff;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 1.2rem;
 }
 </style>

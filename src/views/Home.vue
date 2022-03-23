@@ -71,12 +71,12 @@ export default {
     font-size: 1rem;
   }
 
-  .survivors {
+  .survivorsPerk {
     float: left;
     width: 50%;
   }
 
-  .killers {
+  .killersPerk {
     float: right;
     width: 50%;
   }
