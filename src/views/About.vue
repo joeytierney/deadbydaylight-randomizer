@@ -107,7 +107,9 @@
         >
       </p>
       <div class="privacy">
-        <router-link to="/privacy" class="link">Privacy Policy</router-link>
+        <router-link to="/privacy-policy" class="link"
+          >Privacy Policy</router-link
+        >
       </div>
     </div>
   </div>
