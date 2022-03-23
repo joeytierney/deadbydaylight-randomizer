@@ -14,7 +14,9 @@
       </p>
     </div>
     <div class="footer-links">
-      <router-link to="/privacy" class="link">Privacy Policy</router-link>
+      <router-link to="/privacy-policy" class="link"
+        >Privacy Policy</router-link
+      >
     </div>
   </footer>
 </template>
