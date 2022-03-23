@@ -2,22 +2,22 @@ export const survivorsArray = [
     {
         name: "Dwight Fairfield",
         image: "/assets/character-portraits/survivors/01-dwight-fairfield.png",
-        dlc: "",
+        dlc: "Base Game",
       },
       {
         name: "Meg Thomas",
         image: "../assets/character-portraits/survivors/02-meg-thomas.png",
-        dlc: "",
+        dlc: "Base Game",
       },
       {
         name: "Claudette Morel",
         image: "/assets/character-portraits/survivors/03-claudette-morel.png",
-        dlc: "",
+        dlc: "Base Game",
       },
       {
         name: "Jake Park",
         image: "../assets/character-portraits/survivors/04-jake-park.png",
-        dlc: "",
+        dlc: "Base Game",
       },
       {
         name: "Nea Karlsson",

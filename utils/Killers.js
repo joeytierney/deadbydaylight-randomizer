@@ -3,25 +3,25 @@ export const killersArray = [
         name: "The Trapper",
         image: "/assets/character-portraits/killers/01-the-trapper.png",
         realName: "Evan MacMillan",
-        dlc: "",
+        dlc: "Base Game",
       },
       {
         name: "The Krampus",
         image: "/assets/character-portraits/killers/01a-the-krampus.png",
-        realName: "",
+        realName: "Holiday Horror",
         dlc: "ULTRA-RARE SKIN FOR: The Trapper",
       },
       {
         name: "The Wraith",
         image: "/assets/character-portraits/killers/02-the-wraith.png",
         realName: "Philip Ojomo",
-        dlc: "",
+        dlc: "Base Game",
       },
       {
         name: "The Hillbilly",
         image: "/assets/character-portraits/killers/03-the-hillbilly.png",
         realName: "Max Thompson Jr.",
-        dlc: "",
+        dlc: "Base Game",
       },
       {
         name: "The Nurse",
@@ -50,7 +50,7 @@ export const killersArray = [
       {
         name: "The Look-See",
         image: "/assets/character-portraits/killers/07a-the-look-see.png",
-        realName: "",
+        realName: "The Crypt TV",
         dlc: "LEGENDARY SKIN FOR: The Doctor",
       },
       {
@@ -62,13 +62,13 @@ export const killersArray = [
       {
         name: "The Mordeo",
         image: "/assets/character-portraits/killers/08a-the-mordeo.png",
-        realName: "",
+        realName: "The Crypt TV",
         dlc: "LEGENDARY SKIN FOR: The Huntress",
       },
       {
         name: "The Baba Yaga",
         image: "/assets/character-portraits/killers/08b-the-baba-yaga.png",
-        realName: "",
+        realName: "Modern Tales",
         dlc: "ULTRA-RARE SKIN FOR: The Huntress",
       },
       {
@@ -122,7 +122,7 @@ export const killersArray = [
       {
         name: "The Demogorgon",
         image: "/assets/character-portraits/killers/17-the-demogorgon.png",
-        realName: "",
+        realName: "DemoPls",
         dlc: "CHAPTER XIII: Stranger Things",
       },
       {
@@ -134,7 +134,7 @@ export const killersArray = [
       {
         name: "The Minotaur",
         image: "/assets/character-portraits/killers/18a-the-minotaur.png",
-        realName: "",
+        realName: "Greek Legends",
         dlc: "ULTRA-RARE SKIN FOR: The Oni",
       },
       {
@@ -158,7 +158,7 @@ export const killersArray = [
       {
         name: "The Ferryman",
         image: "/assets/character-portraits/killers/21a-the-ferryman.png",
-        realName: "",
+        realName: "Greek Legends",
         dlc: "UTRA-RARE SKIN FOR: The Blight",
       },
       {
