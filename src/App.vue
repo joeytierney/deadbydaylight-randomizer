@@ -45,8 +45,11 @@ body {
   padding-bottom: 3.75rem;
   font-family: "Roboto", sans-serif;
   background-image: url(https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/background/dbd-fog-background.jpg);
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 h1 {
