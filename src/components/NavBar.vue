@@ -43,61 +43,6 @@
           </li>
         </div>
       </div>
-      <a
-        class="navbar-brand"
-        href="https://www.twitter.com/joeytiernee"
-        target="_blank"
-        ><img
-          src="https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/icons/social/twitter.png"
-          width="30"
-          height="30"
-          alt="Twitter"
-          title="Follow me on Twitter!"
-      /></a>
-      <a
-        class="navbar-brand"
-        href="https://www.instagram.com/y2jt"
-        target="_blank"
-        ><img
-          src="https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/icons/social/instagram.png"
-          width="30"
-          height="30"
-          alt="Instagram"
-          title="Follow me on Instagram!"
-      /></a>
-      <a
-        class="navbar-brand"
-        href="https://www.youtube.com/user/YTwoJT"
-        target="_blank"
-        ><img
-          src="https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/icons/social/youtube.png"
-          width="40"
-          height="30"
-          alt="YouTube"
-          title="Subscribe to my YouTube channel!"
-      /></a>
-      <a
-        class="navbar-brand"
-        href="https://www.github.com/joeytierney"
-        target="_blank"
-        ><img
-          src="https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/icons/social/github.png"
-          width="30"
-          height="30"
-          alt="GitHub"
-          title="Check out my GitHub!"
-      /></a>
-      <a
-        class="navbar-brand"
-        href="https://ie.linkedin.com/in/joey-tierney"
-        target="_blank"
-        ><img
-          src="https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/icons/social/linkedin.png"
-          width="30"
-          height="30"
-          alt="LinkedIn"
-          title="Check me out on LinkedIn!"
-      /></a>
       <button
         class="navbar-toggler"
         type="button"
