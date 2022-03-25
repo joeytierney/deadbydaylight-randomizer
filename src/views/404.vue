@@ -8,7 +8,7 @@
     <a
       ><router-link to="/"
         ><img
-          src="/../assets/icons/offering-icon.png"
+          src="https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/icons/offering-icon.png"
           alt="Return Home Button"
           class="homeButton" /></router-link
     ></a>

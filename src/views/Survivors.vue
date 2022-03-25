@@ -10,7 +10,7 @@
       />
     </div>
     <img
-      src="/deadbydaylight-randomizer/public/assets/icons/character-empty.png"
+      src="https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/icons/character-empty.png"
       alt="Random Survivor Placeholder Portrait"
       class="questionMark"
       id="questionPlaceholder"
@@ -21,7 +21,7 @@
     <br />
     <div class="survButton">
       <img
-        src="/deadbydaylight-randomizer/public/assets/icons/survivor-icon.png"
+        src="https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/icons/survivor-icon.png"
         alt="Click here for a random survivor!"
         @click="rndSurv"
         class="randomSurvButton"
