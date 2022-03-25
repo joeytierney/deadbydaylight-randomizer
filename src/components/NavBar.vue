@@ -81,7 +81,7 @@
         href="https://www.github.com/joeytierney"
         target="_blank"
         ><img
-          src="https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/icons/social/linkedin.png"
+          src="https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/icons/social/github.png"
           width="30"
           height="30"
           alt="GitHub"
@@ -92,7 +92,7 @@
         href="https://ie.linkedin.com/in/joey-tierney"
         target="_blank"
         ><img
-          src="/../assets/icons/social/linkedin.png"
+          src="https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/icons/social/linkedin.png"
           width="30"
           height="30"
           alt="LinkedIn"
