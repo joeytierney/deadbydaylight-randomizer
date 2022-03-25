@@ -10,7 +10,7 @@
       />
     </div>
     <img
-      src="/assets/icons/character-empty.png"
+      src="/../assets/icons/character-empty.png"
       alt="Random Killer Placeholder Portrait"
       class="questionMark"
       id="questionPlaceholder"
@@ -22,7 +22,7 @@
     <br />
     <div class="killerButton">
       <img
-        src="/assets/icons/killer-icon.png"
+        src="/../assets/icons/killer-icon.png"
         alt="Click here for a random Killer!"
         @click="rndKiller"
         class="randomKillerButton"

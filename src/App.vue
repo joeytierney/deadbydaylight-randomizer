@@ -44,7 +44,7 @@ body {
   margin: 0;
   padding-bottom: 3.75rem;
   font-family: "Roboto", sans-serif;
-  background-image: url(/assets/background/dbd-fog-background.jpg);
+  background-image: url(/../assets/background/dbd-fog-background.jpg);
   background-size: fill;
   background-repeat: no-repeat;
 }

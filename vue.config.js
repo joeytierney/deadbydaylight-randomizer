@@ -1,3 +1,4 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/joeytierney.github.io/" : "/",
+  publicPath:
+    process.env.NODE_ENV === "production" ? "/deadbydaylight-randomizer/" : "/",
 };

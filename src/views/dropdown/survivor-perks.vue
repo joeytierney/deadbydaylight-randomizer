@@ -16,7 +16,7 @@
       />
       <p class="rerollPerk">
         <img
-          src="/assets/icons/reroll.png"
+          src="/../assets/icons/reroll.png"
           alt="Reroll Icon"
           class="rerollIcon"
           @click="rerollPerk1()"
@@ -38,7 +38,7 @@
       />
       <p class="rerollPerk">
         <img
-          src="/assets/icons/reroll.png"
+          src="/../assets/icons/reroll.png"
           alt="Reroll Icon"
           class="rerollIcon"
           @click="rerollPerk2()"
@@ -60,7 +60,7 @@
       />
       <p class="rerollPerk">
         <img
-          src="/assets/icons/reroll.png"
+          src="/../assets/icons/reroll.png"
           alt="Reroll Icon"
           class="rerollIcon"
           @click="rerollPerk3()"
@@ -82,7 +82,7 @@
       />
       <p class="rerollPerk">
         <img
-          src="/assets/icons/reroll.png"
+          src="/../assets/icons/reroll.png"
           alt="Reroll Icon"
           class="rerollIcon"
           @click="rerollPerk4()"
@@ -91,7 +91,7 @@
     </div>
   </div>
   <img
-    src="/assets/icons/perk-empty-icon.png"
+    src="/../assets/icons/perk-empty-icon.png"
     alt="Random Survivor Perk Placeholder Icon"
     class="emptyPerk"
     id="emptyPerk"
@@ -102,7 +102,7 @@
   <br />
   <div class="perkButton">
     <img
-      src="/assets/icons/perk-icon.png"
+      src="/../assets/icons/perk-icon.png"
       alt="Click here for a random set of perks!"
       @click="rndPerk"
       class="randomPerkButton"

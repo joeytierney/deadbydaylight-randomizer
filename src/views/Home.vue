@@ -1,7 +1,7 @@
 <template>
   <br />
   <img
-    src="/assets/icons/Logo_dbd.png"
+    src="/../assets/icons/Logo_dbd.png"
     alt="Dead by Daylight logo"
     class="homeLogo"
   />
@@ -10,7 +10,7 @@
     <br />
     <br />
     <img
-      src="/assets/character-backgrounds/meg.png"
+      src="/../assets/character-backgrounds/meg.png"
       alt="Meg Thomas background"
       class="survBg"
     />
@@ -19,13 +19,13 @@
       <h2 class="subSurvHeader">Random Survivor Perks</h2>
       <router-link to="/perks/survivor-perks"
         ><img
-          src="/assets/icons/survivor-icon.png"
+          src="/../assets/icons/survivor-icon.png"
           alt="Random Survivor Perk button"
           class="toRndPerkButton"
       /></router-link>
     </div>
     <img
-      src="/assets/character-backgrounds/trapper.png"
+      src="/../assets/character-backgrounds/trapper.png"
       alt="The Trapper background"
       class="killerBg"
     />
@@ -34,7 +34,7 @@
       <h2 class="subKillerHeader">Random Killer Perks</h2>
       <router-link to="/perks/killer-perks"
         ><img
-          src="/assets/icons/killer-icon.png"
+          src="/../assets/icons/killer-icon.png"
           alt="Random Killer Perk button"
           class="toRndPerkButton"
       /></router-link>

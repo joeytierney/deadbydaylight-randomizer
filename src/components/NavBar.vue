@@ -3,7 +3,7 @@
     <nav class="container navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="/"
         ><img
-          src="/assets/icons/dbd-logo.png"
+          src="/../assets/icons/dbd-logo.png"
           width="40"
           height="40"
           alt="Dead by Daylight logo"
@@ -48,7 +48,7 @@
         href="https://www.twitter.com/joeytiernee"
         target="_blank"
         ><img
-          src="/assets/icons/social/twitter.png"
+          src="/../assets/icons/social/twitter.png"
           width="30"
           height="30"
           alt="Twitter"
@@ -59,7 +59,7 @@
         href="https://www.instagram.com/y2jt"
         target="_blank"
         ><img
-          src="/assets/icons/social/instagram.png"
+          src="/../assets/icons/social/instagram.png"
           width="30"
           height="30"
           alt="Instagram"
@@ -70,7 +70,7 @@
         href="https://www.youtube.com/user/YTwoJT"
         target="_blank"
         ><img
-          src="/assets/icons/social/youtube.png"
+          src="/../assets/icons/social/youtube.png"
           width="40"
           height="30"
           alt="YouTube"
@@ -81,7 +81,7 @@
         href="https://www.github.com/joeytierney"
         target="_blank"
         ><img
-          src="/assets/icons/social/github.png"
+          src="/../assets/icons/social/github.png"
           width="30"
           height="30"
           alt="GitHub"
@@ -92,7 +92,7 @@
         href="https://ie.linkedin.com/in/joey-tierney"
         target="_blank"
         ><img
-          src="/assets/icons/social/linkedin.png"
+          src="/../assets/icons/social/linkedin.png"
           width="30"
           height="30"
           alt="LinkedIn"
