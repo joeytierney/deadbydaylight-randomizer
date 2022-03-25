@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
     <nav class="container navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="/"
+      <a class="navbar-brand" href="https://joeytierney.github.io/deadbydaylight-randomizer/"
         ><img
           src="https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/icons/dbd-logo.png"
           width="40"
