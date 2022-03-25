@@ -114,6 +114,7 @@ export default {
   position: absolute;
   left: 5%;
   height: 36rem;
+  opacity: 0.3;
 }
 
 .killersPerk {
@@ -125,6 +126,7 @@ export default {
   position: absolute;
   right: 1%;
   height: 36rem;
+  opacity: 0.3;
 }
 
 .toRndPerkButton {
