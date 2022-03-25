@@ -44,7 +44,7 @@ body {
   margin: 0;
   padding-bottom: 3.75rem;
   font-family: "Roboto", sans-serif;
-  background-image: url(/deadbydaylight-randomizer/public/assets/background/dbd-fog-background.jpg);
+  background-image: url(https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/dist/assets/background/dbd-fog-background.jpg);
   background-size: fill;
   background-repeat: no-repeat;
 }

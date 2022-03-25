@@ -10,7 +10,7 @@
     <br />
     <br />
     <img
-      src="/../assets/character-backgrounds/meg.png"
+      src="https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/dist/assets/character-backgrounds/meg.png"
       alt="Meg Thomas background"
       class="survBg"
     />
