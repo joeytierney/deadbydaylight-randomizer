@@ -43,14 +43,14 @@ header {
 
 body {
   margin: 0;
-  padding-bottom: 3.75rem;
+  padding: 0;
   font-family: "Roboto", sans-serif;
   background-image: url(https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/background/dbd-fog-background.jpg);
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  -o-background-size: auto;
 }
 
 h1 {
@@ -102,25 +102,6 @@ a.link {
 
 a.link:hover {
   color: #aaa;
-}
-
-footer {
-  padding: 0.125rem 2.5rem;
-  position: absolute;
-  width: 100%;
-  height: 3.75rem;
-  bottom: 0;
-}
-
-footer .footer-text,
-footer .footer-links {
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 0.775rem;
-}
-
-footer .footer-links {
-  margin: 0.625rem 0 0.625rem auto;
 }
 
 #app {
