@@ -1,7 +1,7 @@
 <template>
   <br />
   <img
-    src="/../assets/icons/Logo_dbd.png"
+    src="https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/icons/Logo_dbd.png"
     alt="Dead by Daylight logo"
     class="homeLogo"
   />
@@ -19,13 +19,13 @@
       <h2 class="subSurvHeader">Random Survivor Perks</h2>
       <router-link to="/perks/survivor-perks"
         ><img
-          src="/../assets/icons/survivor-icon.png"
+          src="https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/icons/survivor-icon.png"
           alt="Random Survivor Perk button"
           class="toRndPerkButton"
       /></router-link>
     </div>
     <img
-      src="/../assets/character-backgrounds/trapper.png"
+      src="https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-backgrounds/trapper.png"
       alt="The Trapper background"
       class="killerBg"
     />
@@ -34,7 +34,7 @@
       <h2 class="subKillerHeader">Random Killer Perks</h2>
       <router-link to="/perks/killer-perks"
         ><img
-          src="/../assets/icons/killer-icon.png"
+          src="https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/icons/killer-icon.png"
           alt="Random Killer Perk button"
           class="toRndPerkButton"
       /></router-link>
@@ -113,7 +113,6 @@ export default {
 .survBg {
   position: absolute;
   left: 5%;
-  opacity: 50%;
   height: 36rem;
 }
 
@@ -125,7 +124,6 @@ export default {
 .killerBg {
   position: absolute;
   right: 1%;
-  opacity: 50%;
   height: 36rem;
 }
 
