@@ -22,6 +22,10 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 @media (min-width: 320px) and (max-width: 999px) {
+  body {
+    height: 100vh;
+  }
+
   footer {
     visibility: hidden;
     display: none;
