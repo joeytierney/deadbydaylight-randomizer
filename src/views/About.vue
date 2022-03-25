@@ -116,23 +116,16 @@
 </template>
 
 <style scoped>
-@media (min-width: 320px) and (max-width: 999px) {
-  .site-credit .footer-text,
-  .site-credit .privacy {
-    display: block !important;
-    text-transform: uppercase !important;
-    font-weight: bold !important;
-    font-size: 0.775rem !important;
-  }
-
-  .site-credit .privacy {
-    margin: 0.625rem 0 0.625rem auto !important;
-  }
-}
-
 .site-credit .footer-text,
 .site-credit .privacy {
-  display: none;
+  display: block !important;
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+  font-size: 0.775rem !important;
+}
+
+.site-credit .privacy {
+  margin: 0.625rem 0 0.625rem auto !important;
 }
 
 .about {
