@@ -16,17 +16,17 @@ const routes = [
     component: Home,
   },
   {
-    path: "/about",
+    path: "/deadbydaylight-randomizer/about",
     name: "About",
     component: About,
   },
   {
-    path: "/survivors",
+    path: "/deadbydaylight-randomizer/survivors",
     name: "Survivors",
     component: Survivors,
   },
   {
-    path: "/killers",
+    path: "/deadbydaylight-randomizer/killers",
     name: "Killers",
     component: Killers,
   },
@@ -36,22 +36,22 @@ const routes = [
     component: Perks,
   },
   {
-    path: "/perks/survivor-perks",
+    path: "/deadbydaylight-randomizer/perks/survivor-perks",
     name: "SurvivorPerks",
     component: SurvivorPerks,
   },
   {
-    path: "/perks/killer-perks",
+    path: "/deadbydaylight-randomizer/perks/killer-perks",
     name: "KillerPerks",
     component: KillerPerks,
   },
   {
-    path: "/:catchAll(.*)",
+    path: "/deadbydaylight-randomizer/:catchAll(.*)",
     name: "Error404",
     component: Error404,
   },
   {
-    path: "/privacy-policy",
+    path: "/deadbydaylight-randomizer/privacy-policy",
     name: "PrivacyPolicy",
     component: PrivacyPolicy,
   },
