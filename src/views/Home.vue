@@ -9,11 +9,6 @@
     <h1 class="header">Randomizer</h1>
     <br />
     <br />
-    <img
-      src="https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-backgrounds/meg.png"
-      alt="Meg Thomas background"
-      class="survBg"
-    />
     <div class="survivorsPerk">
       <h1 class="survHeader">Survivors</h1>
       <h2 class="subSurvHeader">Random Survivor Perks</h2>
@@ -24,11 +19,6 @@
           class="toRndPerkButton"
       /></router-link>
     </div>
-    <img
-      src="https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-backgrounds/trapper.png"
-      alt="The Trapper background"
-      class="killerBg"
-    />
     <div class="killersPerk">
       <h1 class="killerHeader">Killers</h1>
       <h2 class="subKillerHeader">Random Killer Perks</h2>
