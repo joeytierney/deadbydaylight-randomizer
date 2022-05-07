@@ -1,40 +1,149 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Single Page Apps for GitHub Pages</title>
-    <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
-      // MIT License
-      // https://github.com/rafgraph/spa-github-pages
-      // This script takes the current url and converts the path and query
-      // string into just a query string, and then redirects the browser
-      // to the new url with only a query string and hash fragment,
-      // e.g. https://www.foo.tld/one/two?a=b&c=d#qwe, becomes
-      // https://www.foo.tld/?/one/two&a=b~and~c=d#qwe
-      // Note: this 404.html file must be at least 512 bytes for it to work
-      // with Internet Explorer (it is currently > 512 bytes)
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>Dead by Daylight Randomizer</title>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-T2KZVFQ');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LVPHG63PEQ"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-      // If you're creating a Project Pages site and NOT using a custom domain,
-      // then set pathSegmentsToKeep to 1 (enterprise users may need to set it to > 1).
-      // This way the code will only replace the route part of the path, and not
-      // the real directory in which the app resides, for example:
-      // https://username.github.io/repo-name/one/two?a=b&c=d#qwe becomes
-      // https://username.github.io/repo-name/?/one/two&a=b~and~c=d#qwe
-      // Otherwise, leave pathSegmentsToKeep as 0.
-      var pathSegmentsToKeep = 1;
+    gtag('config', 'G-LVPHG63PEQ');
+</script>
+    <style>
+      .cookies-notification {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        transform: translateY(100%);
+        transition: transform 300ms ease-in;
+        background: #3f3e3e;
+        padding: 0 5%;
+        z-index: 999999;
+      }
 
-      var l = window.location;
-      l.replace(
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
-        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
-        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-        l.hash
-      );
+      .cookies-notification--visible {
+        transform: translateY(0);
+      }
 
-    </script>
+      .cookies-notification-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 20px;
+      }
+
+      .cookies-notification-text {
+        text-align: center;
+        font-size: 16px;
+      }
+
+      .cookies-notification-text a {
+        color: #00ace6;
+      }
+
+      .cookies-notification-text p {
+        margin: 1em 0;
+      }
+
+      .cookies-notification-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: none;
+        background: #00ace8;
+        color: #fff;
+        border-radius: 4px;
+        font-size: 16px;
+        border: none;
+        padding: 15px 50px;
+        outline:0;
+      }
+
+      @media only screen and (min-width: 600px) {
+        .cookies-notification-content {
+          flex-direction: row;
+          max-width: 1170px;
+          padding-bottom: 0;
+        }
+
+        .cookies-notification-text {
+          font-size: 14px;
+          text-align: start;
+          margin-right: 47px;
+        }
+
+        .cookies-notification-button {
+          font-size: 12px;
+          padding: 12px 24px;
+        }
+      }
+    </style>
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T2KZVFQ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <noscript>
+      <strong>We're sorry but Dead by Daylight Randomizer doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(function () {
+        var cookiesAgreed = localStorage.getItem('cookiesAgreed');
+      
+        if (cookiesAgreed) {
+          return;
+        }
+      
+        var wrapper = $('<div class="cookies-notification"></div>');
+        var notification = $('<div class="cookies-notification-content"></div>');
+        var text = $('<div class="cookies-notification-text"><p>This website uses cookies to ensure the best browsing experience. You may change your cookie preferences in your browser or device settings. <a href=\"http://www.aboutcookies.org/\" target=\"_blank\">Learn More<\/a> <a href=\"http://www.aboutcookies.org/how-to-delete-cookies/\" target=\"_blank\">How To Delete Cookies<\/a><\/p></div>');
+        var button = $('<button class="cookies-notification-button">Accept</button>');
+      
+        button.click(handleAcceptClick);
+        notification
+          .append(text)
+          .append(button);
+        wrapper.append(notification);
+      
+        $('body').append(wrapper);
+        setTimeout(function() {
+          wrapper.addClass('cookies-notification--visible');
+        }, 1000);
+      
+        function handleAcceptClick() {
+          localStorage.setItem('cookiesAgreed', 'true');
+          wrapper.removeClass('cookies-notification--visible');
+          wrapper.on('transitionend', handleTransitionEnd);
+        }
+      
+        function handleTransitionEnd() {
+          wrapper.remove();
+        }
+      });
+    </script>
   </body>
 </html>
