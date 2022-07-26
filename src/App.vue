@@ -45,8 +45,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
-  background: url(https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/background/bgn.jpg);
-  background-repeat: no-repeat;
+  background: url(https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/background/bgn.jpg)
+    no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
