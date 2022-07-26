@@ -22,77 +22,77 @@ export const survivorsArray = [
       {
         name: "Nea Karlsson",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/05-nea-karlsson.png",
-        dlc: "CHAPTER I: The Last Breath",
+        dlc: "CHAPTER 1: The Last Breath",
       },
       {
         name: 'William "Bill" Overbeck',
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/06-bill-overbeck.png",
-        dlc: "PARAGRAPH I: Left Behind",
+        dlc: "PARAGRAPH 1: Left Behind",
       },
       {
         name: "David King",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/07-david-king.png",
-        dlc: "CHAPTER V: A Lullaby for the Dark",
+        dlc: "CHAPTER 5: A Lullaby for the Dark",
       },
       {
         name: "Laurie Strode",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/08-laurie-strode.png",
-        dlc: "CHAPTER II: HALLOWEEN®",
+        dlc: "CHAPTER 2: HALLOWEEN®",
       },
       {
         name: "Ace Visconti",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/09-ace-visconti.png",
-        dlc: "CHAPTER III: Of Flesh and Mud",
+        dlc: "CHAPTER 3: Of Flesh and Mud",
       },
       {
         name: "Feng Min",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/10-feng-min.png",
-        dlc: "CHAPTER IV: Spark of Madness",
+        dlc: "CHAPTER 4: Spark of Madness",
       },
       {
         name: "Quentin Smith",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/11-quentin-smith.png",
-        dlc: "CHAPTER VI: A Nightmare on Elm Street™",
+        dlc: "CHAPTER 6: A Nightmare on Elm Street™",
       },
       {
         name: "Detective David Tapp",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/12-detective-david-tapp.png",
-        dlc: "CHAPTER VII: SAW™",
+        dlc: "CHAPTER 7: SAW™",
       },
       {
         name: "Kate Denson",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/13-kate-denson.png",
-        dlc: "CHAPTER VIII: Curtain Call",
+        dlc: "CHAPTER 8: Curtain Call",
       },
       {
         name: "Adam Francis",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/14-adam-francis.png",
-        dlc: "CHAPTER IX: Shattered Bloodline",
+        dlc: "CHAPTER 9: Shattered Bloodline",
       },
       {
         name: "Jeff Johansen",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/15-jeff-johansen.png",
-        dlc: "CHAPTER X: Darkness Among Us",
+        dlc: "CHAPTER 10: Darkness Among Us",
       },
       {
         name: "Jane Romero",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/16-jane-romero.png",
-        dlc: "CHAPTER XI: Demise of the Faithful",
+        dlc: "CHAPTER 11: Demise of the Faithful",
       },
       {
         name: "Ashley J. Williams",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/17-ash-williams.png",
-        dlc: "PARAGRAPH III: Ash vs Evil Dead",
+        dlc: "PARAGRAPH 3: Ash vs Evil Dead",
       },
       {
         name: "Nancy Wheeler",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/18-nancy-wheeler.png",
-        dlc: "CHAPTER XIII: Stranger Things",
+        dlc: "CHAPTER 13: Stranger Things",
       },
       {
         name: "Steve Harrington",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/19-steve-harrington.png",
-        dlc: "CHAPTER XIII: Stranger Things",
+        dlc: "CHAPTER 13: Stranger Things",
       },
       {
         name: "Jonathan Byers",
@@ -102,17 +102,17 @@ export const survivorsArray = [
       {
         name: "Yui Kimura",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/20-yui-kimura.png",
-        dlc: "CHAPTER XIV: Cursed Legacy",
+        dlc: "CHAPTER 14: Cursed Legacy",
       },
       {
         name: "Zarina Kassir",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/21-zarina-kassir.png",
-        dlc: "CHAPTER XV: Chains of Hate",
+        dlc: "CHAPTER 15: Chains of Hate",
       },
       {
         name: "Cheryl Mason",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/22-cheryl-mason.png",
-        dlc: "CHAPTER XVI: Silent Hill",
+        dlc: "CHAPTER 16: Silent Hill",
       },
       {
         name: "Lisa Garland",
@@ -132,22 +132,22 @@ export const survivorsArray = [
       {
         name: "Felix Richter",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/23-felix-richter.png",
-        dlc: "CHAPTER XVII: Descend Beyond",
+        dlc: "CHAPTER 17: Descend Beyond",
       },
       {
         name: "Élodie Rakoto",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/24-elodie-rakoto.png",
-        dlc: "CHAPTER XVIII: A Binding of Kin",
+        dlc: "CHAPTER 18: A Binding of Kin",
       },
       {
         name: "Yun-Jin Lee",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/25-yun-jin-lee.png",
-        dlc: "CHAPTER XIX: All-Kill",
+        dlc: "CHAPTER 19: All-Kill",
       },
       {
         name: "Jill Valentine",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/26-jill-valentine.png",
-        dlc: "CHAPTER XX: Resident Evil",
+        dlc: "CHAPTER 20: Resident Evil",
       },
       {
         name: "Claire Redfield",
@@ -157,7 +157,7 @@ export const survivorsArray = [
       {
         name: "Leon S. Kennedy",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/27-leon-s-kennedy.png",
-        dlc: "CHAPTER XX: Resident Evil",
+        dlc: "CHAPTER 20: Resident Evil",
       },
       {
         name: "Chris Redfield",
@@ -167,16 +167,21 @@ export const survivorsArray = [
       {
         name: "Mikaela Reid",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/28-mikaela-reid.png",
-        dlc: "PARAGRAPH IV: Hour of the Witch",
+        dlc: "PARAGRAPH 4: Hour of the Witch",
       },
       {
         name: "Jonah Vasquez",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/29-jonah-vasquez.png",
-        dlc: "CHAPTER XXII: Portrait of a Murder",
+        dlc: "CHAPTER 22: Portrait of a Murder",
       },
       {
         name: "Yoichi Asakawa",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/30-yoichi-asakawa.png",
-        dlc: "CHAPTER XXIII: Sadako Rising",
+        dlc: "CHAPTER 23: Sadako Rising",
+      },
+      {
+        name: "Haddie Kaur",
+        image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/31-haddie-kaur.png",
+        dlc: "CHAPTER 24: Roots of Dread",
       },
 ]
