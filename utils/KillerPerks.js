@@ -557,4 +557,28 @@ export const killerPerks = [
         teachable: "The Oni Teachable Perk",
         killer: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/killers/18-the-oni.png",
     },
+    {
+        name: "Shattered Hope",
+        image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/perks/killer-perks/shattered-hope.png",
+        teachable: "All Killers",
+        killer: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/killers/00-all-killers.png",
+    },
+    {
+        name: "Dissolution",
+        image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/perks/killer-perks/dissolution.png",
+        teachable: "The Dredge Teachable Perk",
+        killer: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/killers/28-the-dredge.png",
+    },
+    {
+        name: "Darkness Revealed",
+        image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/perks/killer-perks/darkness-revealed.png",
+        teachable: "The Dredge Teachable Perk",
+        killer: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/killers/28-the-dredge.png",
+    },
+    {
+        name: "Septic Touch",
+        image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/perks/killer-perks/septic-touch.png",
+        teachable: "The Dredge Teachable Perk",
+        killer: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/killers/28-the-dredge.png",
+    },
 ]

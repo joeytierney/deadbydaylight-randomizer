@@ -623,4 +623,22 @@ export const survivorPerks = [
       teachable: "Kate Denson Teachable Perk",
       survivor: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/13-kate-denson.png",
     },
+    {
+      name: "Inner Focus",
+      image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/perks/survivor-perks/inner-focus.png",
+      teachable: "Haddie Kaur Teachable Perk",
+      survivor: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/31-haddie-kaur.png",
+    },
+    {
+      name: "Residual Manifest",
+      image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/perks/survivor-perks/residual-manifest.png",
+      teachable: "Haddie Kaur Teachable Perk",
+      survivor: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/31-haddie-kaur.png",
+    },
+    {
+      name: "Overzealous",
+      image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/perks/survivor-perks/overzealous.png",
+      teachable: "Haddie Kaur Teachable Perk",
+      survivor: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/31-haddie-kaur.png",
+    },
 ]
