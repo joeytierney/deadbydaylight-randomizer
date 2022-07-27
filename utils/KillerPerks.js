@@ -372,7 +372,7 @@ export const killerPerks = [
         killer: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/killers/07-the-doctor.png",
     },
     {
-        name: "Monstrous Shrine",
+        name: "Scourge Hook: Monstrous Shrine",
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/perks/killer-perks/monstrous-shrine.png",
         teachable: "All Killers",
         killer: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/killers/00-all-killers.png",
