@@ -194,4 +194,14 @@ export const survivorsArray = [
         image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/33-rebecca-chambers.png",
         dlc: "CHAPTER 25: Resident Evil™: PROJECT W",
       },
+      {
+        name: "Carlos Oliveira",
+        image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/tba-carlos-oliveira.png",
+        dlc: "LEGENDARY SKIN FOR: TBA",
+      },
+      {
+        name: "Sheva Alomar",
+        image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/tba-sheva-alomar.png",
+        dlc: "LEGENDARY SKIN FOR: TBA",
+      },
 ]
