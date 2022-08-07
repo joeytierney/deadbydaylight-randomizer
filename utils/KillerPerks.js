@@ -581,4 +581,22 @@ export const killerPerks = [
         teachable: "The Dredge Teachable Perk",
         killer: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/killers/28-the-dredge.png",
     },
+    {
+        name: "Superior Anatomy",
+        image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/perks/killer-perks/superior-anatomy.png",
+        teachable: "The Mastermind Teachable Perk",
+        killer: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/killers/29-the-mastermind.png",
+    },
+    {
+        name: "Awakened Awareness",
+        image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/perks/killer-perks/awakened-awareness.png",
+        teachable: "The Mastermind Teachable Perk",
+        killer: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/killers/29-the-mastermind.png",
+    },
+    {
+        name: "Terminus",
+        image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/perks/killer-perks/terminus.png",
+        teachable: "The Mastermind Teachable Perk",
+        killer: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/killers/29-the-mastermind.png",
+    },
 ]
