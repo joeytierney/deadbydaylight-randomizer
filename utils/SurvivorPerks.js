@@ -641,4 +641,46 @@ export const survivorPerks = [
       teachable: "Haddie Kaur Teachable Perk",
       survivor: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/31-haddie-kaur.png",
     },
+    {
+      name: "Better Than New",
+      image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/perks/survivor-perks/better-than-new.png",
+      teachable: "Rebecca Chambers Teachable Perk",
+      survivor: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/33-rebecca-chambers.png",
+    },
+    {
+      name: "Better Than New",
+      image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/perks/survivor-perks/better-than-new.png",
+      teachable: "Rebecca Chambers Teachable Perk",
+      survivor: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/33-rebecca-chambers.png",
+    },
+    {
+      name: "Hyperfocus",
+      image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/perks/survivor-perks/hyperfocus.png",
+      teachable: "Rebecca Chambers Teachable Perk",
+      survivor: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/33-rebecca-chambers.png",
+    },
+    {
+      name: "Reassurance",
+      image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/perks/survivor-perks/reassurance.png",
+      teachable: "Rebecca Chambers Teachable Perk",
+      survivor: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/33-rebecca-chambers.png",
+    },
+    {
+      name: "Low Profile",
+      image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/perks/survivor-perks/low-profile.png",
+      teachable: "Ada Wong Teachable Perk",
+      survivor: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/32-ada-wong.png",
+    },
+    {
+      name: "Wiretrap",
+      image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/perks/survivor-perks/wiretrap.png",
+      teachable: "Ada Wong Teachable Perk",
+      survivor: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/32-ada-wong.png",
+    },
+    {
+      name: "Reactive Healing",
+      image: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/perks/survivor-perks/reactive-healing.png",
+      teachable: "Ada Wong Teachable Perk",
+      survivor: "https://raw.githubusercontent.com/joeytierney/deadbydaylight-randomizer/main/public/assets/character-portraits/survivors/32-ada-wong.png",
+    },
 ]
